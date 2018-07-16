@@ -7,6 +7,8 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="img/fav.jpg" >
+
         <!--bootstrap css-->
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <!--custom css-->
@@ -855,7 +857,7 @@
             </div><!--Contact-sec-1 end-->
 
         </section><!--contact section end-->
-        <div id="map-canvas" style="width:100%; height: 350px;"></div>
+        <div id="map-canvas" style="width:100%; height: auto;"></div>
         <div class="contact-sec-2">
             <div class="container text-center">
                 <div class="row">
