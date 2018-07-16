@@ -413,38 +413,28 @@
 					<img class="img-responsive" src="img/about.jpg">
 					</div>
 					<div class="col-md-8">
-					<h2 class="large  ">About us</h2>
+					
+					<h2>About  <strong class="text-site">us</strong></h2>
                        <p class="p-custom">
-					   From Struggling to lose weight ever since, to having lost a whooping 60 kilos, my weight loss journey has been a “cake walk” thanks to Nutironics.
+					  Food is an important part of life and it has a large effect on your energy levels, mood, academic and athletic performance. Look for helpful tips and updates on this website.
+						Our website plays a vital role in providing information on nutrition, healthy eating, Physical activity and food safety which is very satisfying.
+						We believe that when we provide our body with the real nourishing foods, we can be stewards of our body.
+
 
 					   </p> 
 					   <p class="p-custom">
-					   Our website plays a vital role in providing information on nutrition, healthy eating, Physical activity and food safety which is very satisfying.
+					   At Nutrionics, we really care about living healthy with no significant changes made to your existing lifestyle.
+						Positive thoughts, positive emotions, healthy food & exercise will keep you healthy for lifetime.
+						
+						Nutrionics empower people by providing knowledge about nutritional relationship of health conditions we may be faced with.
+
 
 					   </p>
-					   <p class="p-custom">
-						  We believe that when we provide our body with the real nourishing foods, we can be stewards of our body.
-
-					   </p> 
+					   
 					  
 
                     </div>
-					<div class="col-md-12">
-					 <p class="p-custom">
-						 At Nutrionics, we really care about living healthy with no significant changes made to your existing lifestyle.
-
-					   </p> 
-					   <p class="p-custom">
-						Positive thoughts, positive emotions, healthy food & exercise will keep you healthy for lifetime.
-
-					   </p>
-					   <p class="p-custom">
-						At Nutrionics, Our motto is to encourage preventive health culture by inculcating healthy life style through changes to your food habits & lifestyle. Lifestyle changes which includes healthy food habits & exercising are made such that they can remain sustainable for the lifetime which will not only help you to get rid of existing problems but also helps you to remain healthy for the lifetime.
-						</p>  
-						<p class="p-custom">
-						Nutrionics empower people by providing knowledge about nutritional relationship of health conditions we may be faced with.
-						</p>
-					</div>
+					
                     </div>
                 </div>
             </div>
@@ -494,7 +484,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <p class="p-custom">
-					   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+					   At Nutrionics, Our motto is to encourage preventive health culture by inculcating healthy life style through changes to your food habits & lifestyle. Lifestyle changes which includes healthy food habits & exercising are made such that they can remain sustainable for the lifetime which will not only help you to get rid of existing problems but also helps you to remain healthy for the lifetime.
 
 
 					   </p>
