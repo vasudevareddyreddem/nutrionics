@@ -68,7 +68,7 @@
 
                              data-elementdelay="0.05" 
 
-                             style="z-index: 5; white-space: nowrap;letter-spacing:5px;color:#fff;text-shadow: 2px 2px 8px #000;">Welcome to Nutrition 
+                             style="z-index: 5; white-space: nowrap;letter-spacing:5px;color:#fff;text-shadow: 2px 2px 8px #000;">Welcome to Nutrionics 
                         </div>
 
                         <!-- LAYER NR. 2 -->
