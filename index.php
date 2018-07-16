@@ -791,13 +791,13 @@
                     <div class="row">
                         <div class="col-md-8">
                             <h4>Get in touch</h4>
-                            <form name="sentMessage" id="contactForm" method="post" novalidate>
+                            <form name="sentMessage" action="contactpost.php" id="contactForm" method="post" novalidate>
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="row control-group">
                                             <div class="form-group col-xs-12 controls">
                                                 <label>Name<span>*</span></label>
-                                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                                                <input type="text" class="form-control" name="name" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
                                                 <p class="help-block"></p>
                                             </div>
                                         </div>
@@ -808,7 +808,7 @@
                                         <div class="row control-group">
                                             <div class="form-group col-xs-12 controls">
                                                 <label>Email Address<span>*</span></label>
-                                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                                <input type="email" class="form-control" name="email" placeholder="Email Address" id="email" >
                                                 <p class="help-block"></p>
                                             </div>
                                         </div> 
@@ -817,7 +817,7 @@
                                 <div class="row control-group">
                                     <div class="form-group col-xs-12 controls">
                                         <label>Message<span>*</span></label>
-                                        <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                        <textarea rows="5" class="form-control" name="message" placeholder="Message" id="message" ></textarea>
                                         <p class="help-block"></p>
                                     </div>
                                 </div>
@@ -825,7 +825,7 @@
                                 <div id="success"></div>
                                 <div class="row">
                                     <div class="form-group col-xs-12">
-                                        <button type="submit" class="btn btn-theme-color btn-lg">Send Message</button>
+                                        <input type="submit" name="submit" value="Send Message" class="btn btn-theme-color btn-lg">
                                     </div>
                                 </div>
                             </form>
@@ -946,3 +946,36 @@
 
 
 </html>
+
+
+
+
+<?php
+if(isset($_POST['submit'])){
+	
+	include 'database.php';
+
+	//include 'index.php';
+	$confirmpassword = "'".$_POST['confirmpassword']."'";
+	$sql="INSERT INTO contact(name,email,message)
+	VALUES  ('".$_POST['name']."','".$_POST['email']."','".$_POST['message']."')";
+	echo $sql;exit;
+
+		//echo $sql;exit;
+		if($conn->query($sql) === TRUE) {
+			header('location:http://localhost/nutrionics/index.php');
+		} 
+		else {
+			echo "Error: " . $sql . "<br>" . $conn->error;
+		}
+	}
+	
+//$conn->close();
+?>
+
+
+
+
+
+
+
