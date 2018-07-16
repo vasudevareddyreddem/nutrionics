@@ -291,7 +291,8 @@
                                 <div class="card-body text-center">
                                     <p><img class=" img-fluid" src="img/healtyicon.png" alt="card image"></p>
                                     <h4 class="card-title">Healthy Diets</h4>
-                                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                                    <p class="card-text">A balanced diet is a diet that gives your body all the nutrients required by it in order to function correctly.</p>
+									<p class="card-text">A balanced diet is not a crash diet, it is a well-planned ...</p>
                                     
                                 </div>
                             </div>
@@ -299,9 +300,8 @@
                         <div class="backside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="img/healtyicon.png" alt="card image"></p>
-                                    <h4 class="card-title">Healthy Diets</h4>
-                                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                                    
+                                    <p class="card-text">diet that aims at covering all the important macro-nutrients like protein, carbohydrates and fat along with micro nutrients which include vitamins and minerals.</p>
                                     
                                 </div>
                             </div>
@@ -317,7 +317,8 @@
                                 <div class="card-body text-center">
                                     <p><img class=" img-fluid" src="img/exercise.png" alt="card image"></p>
                                     <h4 class="card-title">Exercise Daily</h4>
-                                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                                    <p class="card-text">Regular physical activity is just as important to a healthful lifestyle . </p> 
+									<p class="card-text">Exercise is defined as any movement that makes your muscles work and requires your body to burn calories.</p>
                                     
                                 </div>
                             </div>
@@ -325,9 +326,8 @@
                         <div class="backside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="img/exercise.png" alt="card image"></p>
-                                    <h4 class="card-title">Exercise Daily</h4>
-                                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                                    
+                                    <p class="card-text">Create an exercise plan and a diet plan that are both gradual, not drastic lifestyle changes. Do a few short workouts during the day instead of 1 long session to ease your body into regular exercise. Your shorter periods of exercise will balance your small meals throughout the day so you are energized without feeling heavy or bloated.</p>
                                     
                                 </div>
                             </div>
@@ -343,7 +343,7 @@
                                 <div class="card-body text-center">
                                     <p><img class=" img-fluid" src="img/eat.png" alt="card image"></p>
                                     <h4 class="card-title">Eat Fresh</h4>
-                                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                                    <p class="card-text">Fruits and vegetables are the natural foods that will help to maintain a healthy diet chart for the body. Sadly, these foods have been replaced by processed foods, </p>
                                     
                                 </div>
                             </div>
@@ -351,9 +351,10 @@
                         <div class="backside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="img/eat.png" alt="card image"></p>
-                                    <h4 class="card-title">Eat Fresh</h4>
-                                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                                   
+                                  
+                                    <p class="card-text">for example, tinned vegetables or breakfast cereals being the main culprit for weight gain.</p> 
+									<p class="card-text">Processed foods are unhealthy and contain added sugar, salt, and fat. So, include fruits and vegetables that are low in fat content aiding in weight loss.</p>
                                     
                                 </div>
                             </div>
@@ -369,7 +370,7 @@
                                 <div class="card-body text-center">
                                     <p><img class=" img-fluid" src="img/vitamins.png" alt="card image"></p>
                                     <h4 class="card-title">Vitamins</h4>
-                                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                                    <p class="card-text">Researchers from National Institute of environmental health have found people taking multi vitamins on a regular basis tend to have younger biological age.</p>
                                     
                                 </div>
                             </div>
@@ -377,9 +378,10 @@
                         <div class="backside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="img/vitamins.png" alt="card image"></p>
-                                    <h4 class="card-title">Vitamins</h4>
-                                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                                  
+                                    
+                                    <p class="card-text">These micronutrients support metabolism, nerve and muscle function, bone maintenance and cell production.</p>
+									<p class="card-text">Fruits and vegetables are the primary sources of vitamins and minerals including potassium, dietary fiber, folate (folic acid), vitamin A, and vitamin C.</p>
                                     
                                 </div>
                             </div>
@@ -398,22 +400,48 @@
                 <div class="container">
                    
                         
-                        <h2 class="large  ">About us</h2>
+                        
                            
 
                 </div><!--container-->
                 <div class="container">
                     <div class="row">
-                    <div class="col-md-8">
-                       <p class="p-custom">
-					   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-
-					   </p>
-
-                    </div>
+                    
 					<div class="col-md-4">
 					<img class="img-responsive" src="img/about.jpg">
+					</div>
+					<div class="col-md-8">
+					<h2 class="large  ">About us</h2>
+                       <p class="p-custom">
+					   From Struggling to lose weight ever since, to having lost a whooping 60 kilos, my weight loss journey has been a “cake walk” thanks to Nutironics.
+
+					   </p> 
+					   <p class="p-custom">
+					   Our website plays a vital role in providing information on nutrition, healthy eating, Physical activity and food safety which is very satisfying.
+
+					   </p>
+					   <p class="p-custom">
+						  We believe that when we provide our body with the real nourishing foods, we can be stewards of our body.
+
+					   </p> 
+					  
+
+                    </div>
+					<div class="col-md-12">
+					 <p class="p-custom">
+						 At Nutrionics, we really care about living healthy with no significant changes made to your existing lifestyle.
+
+					   </p> 
+					   <p class="p-custom">
+						Positive thoughts, positive emotions, healthy food & exercise will keep you healthy for lifetime.
+
+					   </p>
+					   <p class="p-custom">
+						At Nutrionics, Our motto is to encourage preventive health culture by inculcating healthy life style through changes to your food habits & lifestyle. Lifestyle changes which includes healthy food habits & exercising are made such that they can remain sustainable for the lifetime which will not only help you to get rid of existing problems but also helps you to remain healthy for the lifetime.
+						</p>  
+						<p class="p-custom">
+						Nutrionics empower people by providing knowledge about nutritional relationship of health conditions we may be faced with.
+						</p>
 					</div>
                     </div>
                 </div>
@@ -606,23 +634,24 @@
 
              <div class="container">
              <div class="row">
-                    <div class="col-md-7">
+                   
+					<div class="col-md-5">
+					<img class="img-responsive" src="img/story1.jpg">
+					</div>
+					 <div class="col-md-7">
 					<h2>Story Of <strong class="text-site">Success</strong></h2>
                        <p class="p-custom">
-					   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+					  I have always loved exercise and thought that I was eating healthy but never got the results I wanted. However having my sessions with nutritionist have achieved fabulous results through making some life styles and diet changes. A huge Thank you for helping me to get where I have always wanted to be.
 
 
 					   </p>  
 					   <p class="p-custom">
-					   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+					  From Struggling to lose weight ever since, to having lost a whooping 60 kilos, my weight loss journey has been a “cake walk” thanks to Nutironics.
 
 
 					   </p>
 
                     </div>
-					<div class="col-md-5">
-					<img class="img-responsive" src="img/story1.jpg">
-					</div>
                     </div>
                     </div>
         </section><!--#work-section-->
