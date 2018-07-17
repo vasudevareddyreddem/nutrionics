@@ -3,7 +3,7 @@
     
 
 <head>
-        <title>Nutriation</title>
+        <title>Nutrition</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -68,7 +68,7 @@
 
                              data-elementdelay="0.05" 
 
-                             style="z-index: 5; white-space: nowrap;letter-spacing:5px;color:#fff;text-shadow: 2px 2px 8px #000;">Welcome to Nutrionics 
+                             style="z-index: 5; white-space: nowrap;letter-spacing:5px;color:#fff;text-shadow: 2px 2px 8px #000;">Welcome to Nutrition 
                         </div>
 
                         <!-- LAYER NR. 2 -->
