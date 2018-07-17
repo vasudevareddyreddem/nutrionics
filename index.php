@@ -780,6 +780,13 @@
                     </div><!--section heading-->
                 </div><!--.container-->
                 <div class="container">
+				<div class="page-alerts">
+					<div class="alert alert-success page-alert" id="alert-1">
+						<button type="button" class="close"><span id="close-alt" aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+						<strong>Well done!</strong> You successfully read this important alert message.
+					</div>
+					
+				</div>
                     <div class="row">
                         <div class="col-md-8">
                             <h4>Get in touch</h4>
@@ -817,7 +824,8 @@
                                 <div id="success"></div>
                                 <div class="row">
                                     <div class="form-group col-xs-12">
-                                        <input type="submit" name="submit" value="Send Message" class="btn btn-theme-color btn-lg">
+                                        <input type="submit" name="submit"  value="Send Message" class="btn btn-theme-color btn-lg">
+										
                                     </div>
                                 </div>
                             </form>
@@ -939,6 +947,13 @@
 
 </html>
 
+<script>
+$(document).ready(function(){
+    $("#close-alt").click(function(){
+        $(".page-alert").toggle();
+    });
+});
+</script>
 
 
 
