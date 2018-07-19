@@ -32,6 +32,7 @@
     
 
     </head>
+
     <body data-spy="scroll" data-target="#navigation" data-offset="80">
 
         <section id="home">
@@ -285,112 +286,82 @@
            <br>
            <br>
                 <div class="container">
-                  <div class=" col-md-3">
-                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                    <div class="mainflip">
-                        <div class="frontside">
-                            <div class="card">
-                                <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="img/healtyicon.png" alt="card image"></p>
-                                    <h4 class="card-title">Healthy Diets</h4>
-                                    <p class="card-text">A balanced diet is a diet that gives your body all the nutrients required by it in order to function correctly.</p>
-									<p class="card-text">A balanced diet is not a crash diet, it is a well-planned ...</p>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        <div class="backside">
-                            <div class="card">
-                                <div class="card-body text-center">
-                                    
-                                    <p class="card-text">diet that aims at covering all the important macro-nutrients like protein, carbohydrates and fat along with micro nutrients which include vitamins and minerals.</p>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-			<div class=" col-md-3">
-                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                    <div class="mainflip">
-                        <div class="frontside">
-                            <div class="card">
-                                <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="img/exercise.png" alt="card image"></p>
-                                    <h4 class="card-title">Exercise Daily</h4>
-                                    <p class="card-text">Regular physical activity is just as important to a healthful lifestyle . </p> 
-									<p class="card-text">Exercise is defined as any movement that makes your muscles work and requires your body to burn calories.</p>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        <div class="backside">
-                            <div class="card">
-                                <div class="card-body text-center">
-                                    
-                                    <p class="card-text">Create an exercise plan and a diet plan that are both gradual, not drastic lifestyle changes. Do a few short workouts during the day instead of 1 long session to ease your body into regular exercise. Your shorter periods of exercise will balance your small meals throughout the day so you are energized without feeling heavy or bloated.</p>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-			<div class=" col-md-3">
-                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                    <div class="mainflip">
-                        <div class="frontside">
-                            <div class="card">
-                                <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="img/eat.png" alt="card image"></p>
-                                    <h4 class="card-title">Eat Fresh</h4>
-                                    <p class="card-text">Fruits and vegetables are the natural foods that will help to maintain a healthy diet chart for the body. Sadly, these foods have been replaced by processed foods, </p>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        <div class="backside">
-                            <div class="card">
-                                <div class="card-body text-center">
-                                   
-                                  
-                                    <p class="card-text">for example, tinned vegetables or breakfast cereals being the main culprit for weight gain.</p> 
-									<p class="card-text">Processed foods are unhealthy and contain added sugar, salt, and fat. So, include fruits and vegetables that are low in fat content aiding in weight loss.</p>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-			<div class=" col-md-3">
-                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                    <div class="mainflip">
-                        <div class="frontside">
-                            <div class="card">
-                                <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="img/vitamins.png" alt="card image"></p>
-                                    <h4 class="card-title">Vitamins</h4>
-                                    <p class="card-text">Researchers from National Institute of environmental health have found people taking multi vitamins on a regular basis tend to have younger biological age.</p>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        <div class="backside">
-                            <div class="card">
-                                <div class="card-body text-center">
-                                  
-                                    
-                                    <p class="card-text">These micronutrients support metabolism, nerve and muscle function, bone maintenance and cell production.</p>
-									<p class="card-text">Fruits and vegetables are the primary sources of vitamins and minerals including potassium, dietary fiber, folate (folic acid), vitamin A, and vitamin C.</p>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                <div class=" col-md-3 col-20">
+					<div class="" >
+						<div class="">
+							<div class="frontside">
+								<div class="card">
+									<div class="card-body text-center">
+										<p><img class=" img-fluid" src="img/healtyicon.png" alt="card image"></p>
+										<h5 class="card-title">Weight Gain Diet / Weight Loss Diet</h5>
+										
+										
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class=" col-md-3 col-20">
+					<div class="" >
+						<div class="">
+							<div class="frontside">
+								<div class="card">
+									<div class="card-body text-center">
+										<p><img class=" img-fluid" src="img/eat.png" alt="card image"></p>
+										<h5 class="card-title">Therapeutic Diets</h5>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class=" col-md-3 col-20">
+					<div class="" >
+						<div class="">
+							<div class="frontside">
+								<div class="card">
+									<div class="card-body text-center">
+										<p><img class=" img-fluid" src="img/exercise.png" alt="card image"></p>
+										<h5 class="card-title">Diet for Pregnant / Lactating Mothers</h5>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class=" col-md-3 col-20">
+					<div class="" >
+						<div class="">
+							<div class="frontside">
+								<div class="card">
+									<div class="card-body text-center">
+										<p><img class=" img-fluid" src="img/child.png" alt="card image"></p>
+										<h5 class="card-title">Child Nutrition </h5>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+				<div class=" col-md-3 col-20">
+					<div class="" >
+						<div class="">
+							<div class="frontside">
+								<div class="card">
+									<div class="card-body text-center">
+										<p><img class=" img-fluid" src="img/fitness.png" alt="card image"></p>
+										<h5 class="card-title">Fitness Counselling / Training </h5>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+			
+			
 					</div>
                 </div>
            
@@ -498,27 +469,12 @@
                             <div class="row margin-btm-20">
                                 <div class="col-md-2">
                                     <div class="services-icon">
-                                        <i class="fa fa-image"></i>
+                                        <i class="fa fa-leaf"></i>
                                     </div> 
                                 </div>
                                 <div class="col-md-10">
                                     <div class="services-info">
-                                        <h3>Follow The Regime</h3>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget viverra augue. Nunc dignissim rutrum tempor. 
-                                        </p>
-                                    </div>
-                                </div>
-                            </div><!--.services row end-->
-                            <div class="row margin-btm-20">
-                                <div class="col-md-2">
-                                    <div class="services-icon">
-                                        <i class="fa fa-plane"></i>
-                                    </div> 
-                                </div>
-                                <div class="col-md-10">
-                                    <div class="services-info">
-                                        <h3>Healthy & Result </h3>
+                                        <h3>Nutrition Consultation</h3>
                                         <p>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget viverra augue. Nunc dignissim rutrum tempor. 
                                         </p>
@@ -533,7 +489,22 @@
                                 </div>
                                 <div class="col-md-10">
                                     <div class="services-info">
-                                        <h3>Enjoy Your Life </h3>
+                                        <h3>Full body Assessment</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget viverra augue. Nunc dignissim rutrum tempor. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div><!--.services row end-->
+                            <div class="row margin-btm-20">
+                                <div class="col-md-2">
+                                    <div class="services-icon">
+                                        <i class="fa fa-leaf"></i>
+                                    </div> 
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="services-info">
+                                        <h3>Fitness Counselling / Training </h3>
                                         <p>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget viverra augue. Nunc dignissim rutrum tempor. 
                                         </p>
@@ -547,27 +518,12 @@
                              <div class="row margin-btm-20">
                                 <div class="col-md-2">
                                     <div class="services-icon">
-                                        <i class="fa fa-image"></i>
+                                        <i class="fa fa-leaf"></i>
                                     </div> 
                                 </div>
                                 <div class="col-md-10">
                                     <div class="services-info">
-                                        <h3>Follow The Regime</h3>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget viverra augue. Nunc dignissim rutrum tempor. 
-                                        </p>
-                                    </div>
-                                </div>
-                            </div><!--.services row end-->
-                            <div class="row margin-btm-20">
-                                <div class="col-md-2">
-                                    <div class="services-icon">
-                                        <i class="fa fa-plane"></i>
-                                    </div> 
-                                </div>
-                                <div class="col-md-10">
-                                    <div class="services-info">
-                                        <h3>Healthy & Result </h3>
+                                        <h3>Doctor Consultation </h3>
                                         <p>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget viverra augue. Nunc dignissim rutrum tempor. 
                                         </p>
@@ -582,7 +538,22 @@
                                 </div>
                                 <div class="col-md-10">
                                     <div class="services-info">
-                                        <h3>Enjoy Your Life </h3>
+                                        <h3>Blood Parameters Check up </h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget viverra augue. Nunc dignissim rutrum tempor. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div><!--.services row end-->
+                            <div class="row margin-btm-20">
+                                <div class="col-md-2">
+                                    <div class="services-icon">
+                                        <i class="fa fa-leaf"></i>
+                                    </div> 
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="services-info">
+                                        <h3>Diet Food Home Delivery </h3>
                                         <p>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget viverra augue. Nunc dignissim rutrum tempor. 
                                         </p>
@@ -834,10 +805,10 @@
                         <div class="col-md-4">
                             <h4>Contact info</h4>
                             <div class="contact-info wow animated fadeInRight" data-wow-delay=".6s">
-                                <p><i class="fa fa-home"></i> 124,Munna wali Dhani Jaipur, India</p>
-                                <p><i class="fa fa-home"></i> +91 xxxxx</p>
-                                <p><b>Fax:</b> +91 xxxxx</p>
-                                <p><i class="fa fa-envelope"></i> <a href="#">mail@domain.com</a></p>
+                               
+                                <p><i class="fa fa-home"></i> +91 9618123311</p>
+                              
+                                <p><i class="fa fa-envelope"></i> <a href="#">teamnutrionics@gmail.com</a></p>
                                 <p><i class="fa fa-clock-o"></i> Monday-Friday 9:30-5:30pm</p>
                                 <hr>
                                 <h4>Elsewhere</h4>
@@ -862,13 +833,13 @@
                     <div class="col-sm-4">
                         <div class="contact-col wow animated flipInY" data-wow-delay=".3s">
                             <i class="fa fa-phone"></i>
-                            <p>+91 0141 123456789</p>
+                            <p>+91 9618123311</p>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="contact-col wow animated flipInY" data-wow-delay=".3s">
                             <i class="fa fa-envelope"></i>
-                            <p>mail@Domain.com</p>
+                            <p>teamnutrionics@gmail.com</p>
                         </div>
                     </div>
                     <div class="col-sm-4">
