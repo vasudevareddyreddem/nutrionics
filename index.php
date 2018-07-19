@@ -751,13 +751,28 @@
                     </div><!--section heading-->
                 </div><!--.container-->
                 <div class="container">
+				<?php
+				if(isset($_GET['message'])&& $_GET['message']=='success'){
+					?>
+					<div id="bottom" >
 				<div class="page-alerts">
 					<div class="alert alert-success page-alert" id="alert-1">
 						<button type="button" class="close"><span id="close-alt" aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-						<strong>Well done!</strong> You successfully read this important alert message.
+						 <strong >Your query successfully sent!</strong>
 					</div>
-					
+					</div>
 				</div>
+				<?php } else{?>
+				<div id="bottom" >
+				<div class="page-alerts">
+					<div class="alert alert-warning page-alert" id="alert-1">
+						<button type="button" class="close"><span id="close-alt" aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+						 <strong >Technical problem will occured. Please try again. </strong>
+					</div>
+					</div>
+				</div>
+				<?php } ?>
+				
                     <div class="row">
                         <div class="col-md-8">
                             <h4>Get in touch</h4>
@@ -795,7 +810,7 @@
                                 <div id="success"></div>
                                 <div class="row">
                                     <div class="form-group col-xs-12">
-                                        <input type="submit" name="submit"  value="Send Message" class="btn btn-theme-color btn-lg">
+                                        <input type="submit" name="submit"  value="Send Message"  class="btn btn-theme-color btn-lg">
 										
                                     </div>
                                 </div>
@@ -910,12 +925,7 @@
         <script src="js/revolution-custom.js" type="text/javascript"></script>
         <script src="js/isotope-custom.js" type="text/javascript"></script>
        
-  
-
-
     </body>
-
-
 </html>
 
 <script>
@@ -925,9 +935,6 @@ $(document).ready(function(){
     });
 });
 </script>
-
-
-
 
 
 
