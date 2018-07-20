@@ -552,12 +552,9 @@
                     </div>
                 </div>
             </div><!--services section 1 end-->
-            <div class="services-section-2 parallax" data-stellar-background-ratio="0.5">
-                <div class="container">
-				
-				
-				
-				<span id="errormsg_1">
+			
+			
+			<span id="errormsg_1">
 				<?php
 				if(isset($_GET['qqq'])&& $_GET['qqq']=='true'){
 					?>
@@ -582,20 +579,18 @@
 				</div>
 				<?php } ?>
 				</span>
-				
-				
-				
-				
+            <div class="services-section-2 parallax" data-stellar-background-ratio="0.5">
+                <div class="container">
                     <div class="row">
                         <div class="col-md-12 text-center">
                             <h1>Subscribe to Newsletter</h1>
-                            <form class="newsletter-form" action="contactpost.php" method="post" novalidate>
+                            <form class="newsletter-form" action="contactpost.php" method="post" >
 							 <input type="hidden" name="form_one" value="">
                                 <div class="row">
                                     <div class="col-sm-4 col-sm-offset-4">
                                         <div class="input-group">
                                             <label class="sr-only" for="subscribe-email">Email address</label>
-                                            <input type="email" name="mail" class="form-control" id="subscribe-email" placeholder="Enter your email">
+                                            <input type="email" name="mail" class="form-control" id="subscribe-email" placeholder="Enter your email" required>
                                             <span class="input-group-btn">
                                                 <input type="submit" name="submit" value="ok" class="btn btn-theme-color btn-lg">
                                             </span>
