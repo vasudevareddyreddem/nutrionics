@@ -8,7 +8,19 @@ if($conn->connect_error){
 die('connection failed:'.$conn->connect_error);
 }
 
-if(isset($_POST['submit'])){
+if(isset($_POST['form_one']) && $_POST['form_one']==''){
+	$sql2="INSERT INTO subscribe(mail) VALUES  ('".$_POST['mail']."')";
+	//echo $sql2;exit;
+	
+	$currentPath = $_SERVER['PHP_SELF']; 
+	$pathInfo = pathinfo($currentPath); 
+	
+	if($conn->query($sql2) === TRUE){
+		header("Location: " . "http://" .$_SERVER['SERVER_NAME']. $pathInfo['dirname']); 
+	}
+}
+
+if(isset($_POST['form_one']) && $_POST['form_one']==1){
 	//echo '<pre>'; print_r($_POST);exit;
 	$sql="INSERT INTO contact(name,email,message,status)
 	VALUES  ('".$_POST['name']."','".$_POST['email']."','".$_POST['message']."','0')";
@@ -30,7 +42,7 @@ if(isset($_POST['submit'])){
 			$id=$conn->insert_id;
 			$sql1='UPDATE contact SET status=1 WHERE id='.$id;
 		//echo $sql1;exit;
-		$result3=$conn->query($sql1);
+		$result1=$conn->query($sql1);
 		}
 		else{
 			$msg='fail';
@@ -40,6 +52,9 @@ if(isset($_POST['submit'])){
 		else {
 			echo "Error: " . $sql . "<br>" . $conn->error;
 		}
-$conn->close();
+
 }
+
+
+$conn->close();
 ?>

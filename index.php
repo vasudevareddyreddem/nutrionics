@@ -557,14 +557,15 @@
                     <div class="row">
                         <div class="col-md-12 text-center">
                             <h1>Subscribe to Newsletter</h1>
-                            <form class="newsletter-form">
+                            <form class="newsletter-form" action="contactpost.php" method="post" novalidate>
+							 <input type="hidden" name="form_one" value="">
                                 <div class="row">
                                     <div class="col-sm-4 col-sm-offset-4">
                                         <div class="input-group">
                                             <label class="sr-only" for="subscribe-email">Email address</label>
-                                            <input type="email" class="form-control" id="subscribe-email" placeholder="Enter your email">
+                                            <input type="email" name="mail" class="form-control" id="subscribe-email" placeholder="Enter your email">
                                             <span class="input-group-btn">
-                                                <input type="submit" class="btn btn-theme-color btn-lg">OK</button>
+                                                <input type="submit" name="submit" value="ok" class="btn btn-theme-color btn-lg">
                                             </span>
                                         </div>
                                     </div>
@@ -732,39 +733,45 @@
 
 
             <div class="contact-sec-1">
-                <div class="container">
+                <div class="container" id="">
                     <div class="section-heading text-center">
                         <h4 class="small section-title"><span>we Love to here from you  </span></h4>
                         <h2 class="large section-title">Contact Us</h2>
                     </div><!--section heading-->
                 </div><!--.container-->
                 <div class="container">
+				<span id="errormsg_1">
 				<?php
 				if(isset($_GET['message'])&& $_GET['message']=='success'){
 					?>
 					<div id="bottom" >
-				<div class="page-alerts">
+				<div class="page-alert">
 					<div class="alert alert-success page-alert" id="alert-1">
 						<button type="button" class="close"><span id="close-alt" aria-hidden="true">×</span><span class="sr-only">Close</span></button>
 						 <strong >Your query successfully sent!</strong>
 					</div>
 					</div>
 				</div>
-				<?php } if(isset($_GET['message'])&& $_GET['message']=='fail'){ ?>
-				<div id="bottom" >
+				<?php } ?>
+				
+				<?php if(isset($_GET['message'])&& $_GET['message']=='fail'){ ?>
+				<div id="bottom"  id="">
 				<div class="page-alerts">
-					<div class="alert alert-warning page-alert" id="alert-1">
-						<button type="button" class="close"><span id="close-alt" aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+					<div class="alert alert-warning page-alert" id="alert-2">
+						<a href="javascript:void(0);" onclick="removeerrormsg();"><button type="button" class="close"><span id="close-alt1" aria-hidden="true">×</span><span class="sr-only">Close</span></button></a>
 						 <strong >Technical problem will occured. Please try again. </strong>
 					</div>
 					</div>
 				</div>
 				<?php } ?>
+				</span>
 				
                     <div class="row">
                         <div class="col-md-8">
                             <h4>Get in touch</h4>
                             <form name="sentMessage" action="contactpost.php" id="contactForm" method="post" >
+							<input type="hidden" name="form_one" value="1">
+
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="row control-group">
@@ -917,11 +924,11 @@
 </html>
 
 <script>
-$(document).ready(function(){
-    $("#close-alt").click(function(){
-        $(".page-alert").toggle();
-    });
-});
+
+  setTimeout(function() {
+    $('#errormsg_1').fadeOut('fast');
+}, 50000); // <-- time in milliseconds
+
 </script>
 
 
