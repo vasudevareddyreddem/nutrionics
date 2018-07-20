@@ -52,7 +52,7 @@
                              data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
                              data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" 
                              data-fontsize="['70','70','70','45']"
-                             data-lineheight="['70','70','70','50']"
+                             data-lineheight="['70','70','70','65']"
                              data-width="none"
                              data-height="none"
                              data-whitespace="nowrap"
@@ -69,7 +69,7 @@
 
                              data-elementdelay="0.05" 
 
-                             style="z-index: 5; white-space: nowrap;letter-spacing:5px;color:#fff;text-shadow: 2px 2px 8px #000;">Welcome to Nutrition 
+                             style="z-index: 5; white-space: nowrap;letter-spacing:5px;color:#fff;text-shadow: 2px 2px 8px #000;margin-top:120px">Welcome to Nutrionics 
                         </div>
 
                         <!-- LAYER NR. 2 -->
@@ -424,7 +424,7 @@
                             <h1 class="wow animated fadeInLeft text-center" data-wow-delay="0.3s">HOW IT WORKS</h1>
 							<br>
 							<p class="p-custom text-center ">
-					  There's a quiet revolution in the world of fitness. And you can hear its approaching sounds not in the form of thundering hooves but in the delicate lilt of quiet clicks. Fitness, health and weight loss has moved online taking the world with it. Get customized weight loss and health diets on nourishgenie.com that snugly and beautifully fit in with your individual health profile. Get virtually but personally attended to by celebirity nutritionist Pooja Makhija, and be in the best shape you'll ever be.
+					  There's a quiet revolution in the world of fitness. And you can hear its approaching sounds not in the form of thundering hooves but in the delicate lilt of quiet clicks. Fitness, health and weight loss has moved online taking the world with it. Get customized weight loss and health diets on nourishgenie.com that snugly and beautifully fit in with your individual health profile. 
 
 
 					   </p>
@@ -475,9 +475,7 @@
                                 <div class="col-md-10">
                                     <div class="services-info">
                                         <h3>Nutrition Consultation</h3>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget viverra augue. Nunc dignissim rutrum tempor. 
-                                        </p>
+                                       
                                     </div>
                                 </div>
                             </div><!--.services row end-->
@@ -490,9 +488,7 @@
                                 <div class="col-md-10">
                                     <div class="services-info">
                                         <h3>Full body Assessment</h3>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget viverra augue. Nunc dignissim rutrum tempor. 
-                                        </p>
+                                       
                                     </div>
                                 </div>
                             </div><!--.services row end-->
@@ -505,9 +501,7 @@
                                 <div class="col-md-10">
                                     <div class="services-info">
                                         <h3>Fitness Counselling / Training </h3>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget viverra augue. Nunc dignissim rutrum tempor. 
-                                        </p>
+                                       
                                     </div>
                                 </div>
                             </div><!--.services row end-->
@@ -524,9 +518,7 @@
                                 <div class="col-md-10">
                                     <div class="services-info">
                                         <h3>Doctor Consultation </h3>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget viverra augue. Nunc dignissim rutrum tempor. 
-                                        </p>
+                                       
                                     </div>
                                 </div>
                             </div><!--.services row end-->
@@ -539,9 +531,7 @@
                                 <div class="col-md-10">
                                     <div class="services-info">
                                         <h3>Blood Parameters Check up </h3>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget viverra augue. Nunc dignissim rutrum tempor. 
-                                        </p>
+                                       
                                     </div>
                                 </div>
                             </div><!--.services row end-->
@@ -554,9 +544,7 @@
                                 <div class="col-md-10">
                                     <div class="services-info">
                                         <h3>Diet Food Home Delivery </h3>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget viverra augue. Nunc dignissim rutrum tempor. 
-                                        </p>
+                                       
                                     </div>
                                 </div>
                             </div><!--.services row end-->
