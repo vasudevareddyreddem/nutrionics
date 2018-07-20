@@ -732,34 +732,38 @@
 
 
             <div class="contact-sec-1">
-                <div class="container">
+                <div class="container" id="">
                     <div class="section-heading text-center">
                         <h4 class="small section-title"><span>we Love to here from you  </span></h4>
                         <h2 class="large section-title">Contact Us</h2>
                     </div><!--section heading-->
                 </div><!--.container-->
                 <div class="container">
+				<span id="errormsg_1">
 				<?php
 				if(isset($_GET['message'])&& $_GET['message']=='success'){
 					?>
 					<div id="bottom" >
-				<div class="page-alerts">
+				<div class="page-alert">
 					<div class="alert alert-success page-alert" id="alert-1">
 						<button type="button" class="close"><span id="close-alt" aria-hidden="true">×</span><span class="sr-only">Close</span></button>
 						 <strong >Your query successfully sent!</strong>
 					</div>
 					</div>
 				</div>
-				<?php } if(isset($_GET['message'])&& $_GET['message']=='fail'){ ?>
-				<div id="bottom" >
+				<?php } ?>
+				
+				<?php if(isset($_GET['message'])&& $_GET['message']=='fail'){ ?>
+				<div id="bottom"  id="">
 				<div class="page-alerts">
-					<div class="alert alert-warning page-alert" id="alert-1">
-						<button type="button" class="close"><span id="close-alt" aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+					<div class="alert alert-warning page-alert" id="alert-2">
+						<a href="javascript:void(0);" onclick="removeerrormsg();"><button type="button" class="close"><span id="close-alt1" aria-hidden="true">×</span><span class="sr-only">Close</span></button></a>
 						 <strong >Technical problem will occured. Please try again. </strong>
 					</div>
 					</div>
 				</div>
 				<?php } ?>
+				</span>
 				
                     <div class="row">
                         <div class="col-md-8">
@@ -917,11 +921,11 @@
 </html>
 
 <script>
-$(document).ready(function(){
-    $("#close-alt").click(function(){
-        $(".page-alert").toggle();
-    });
-});
+
+  setTimeout(function() {
+    $('#errormsg_1').fadeOut('fast');
+}, 50000); // <-- time in milliseconds
+
 </script>
 
 
