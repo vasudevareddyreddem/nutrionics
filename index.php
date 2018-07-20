@@ -564,7 +564,7 @@
                                             <label class="sr-only" for="subscribe-email">Email address</label>
                                             <input type="email" class="form-control" id="subscribe-email" placeholder="Enter your email">
                                             <span class="input-group-btn">
-                                                <button type="submit" class="btn btn-theme-color btn-lg">OK</button>
+                                                <input type="submit" class="btn btn-theme-color btn-lg">OK</button>
                                             </span>
                                         </div>
                                     </div>
