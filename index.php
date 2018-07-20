@@ -554,6 +554,38 @@
             </div><!--services section 1 end-->
             <div class="services-section-2 parallax" data-stellar-background-ratio="0.5">
                 <div class="container">
+				
+				
+				
+				<span id="errormsg_1">
+				<?php
+				if(isset($_GET['qqq'])&& $_GET['qqq']=='true'){
+					?>
+					<div id="bottom" >
+				<div class="page-alert">
+					<div class="alert alert-success page-alert" id="alert-1">
+						<button type="button" class="close"><span id="close-alt" aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+						 <strong>Thankyou for subscribing!</strong>
+					</div>
+					</div>
+				</div>
+				<?php } ?>
+				
+				<?php if(isset($_GET['qqq'])&& $_GET['qqq']=='false'){ ?>
+				<div id="bottom"  id="">
+				<div class="page-alerts">
+					<div class="alert alert-warning page-alert" id="alert-2">
+						<a href="javascript:void(0);" onclick="removeerrormsg();"><button type="button" class="close"><span id="close-alt1" aria-hidden="true">×</span><span class="sr-only">Close</span></button></a>
+						 <strong >Technical problem will occured. Please try again. </strong>
+					</div>
+					</div>
+				</div>
+				<?php } ?>
+				</span>
+				
+				
+				
+				
                     <div class="row">
                         <div class="col-md-12 text-center">
                             <h1>Subscribe to Newsletter</h1>
@@ -752,6 +784,9 @@
 					</div>
 					</div>
 				</div>
+				<script>
+				document.getElementById("contact").click();
+				</script>
 				<?php } ?>
 				
 				<?php if(isset($_GET['message'])&& $_GET['message']=='fail'){ ?>
@@ -763,6 +798,9 @@
 					</div>
 					</div>
 				</div>
+				<script>
+				document.getElementById("contact").click();
+				</script>
 				<?php } ?>
 				</span>
 				

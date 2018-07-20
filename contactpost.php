@@ -17,11 +17,11 @@ if(isset($_POST['form_one']) && $_POST['form_one']==''){
 	
 	if($conn->query($sql2) === TRUE){
 		$msg1="true";
-		header("Location: " . "http://" .$_SERVER['SERVER_NAME']. $pathInfo['dirname']."?qqq=".$msg1); 
+		header("Location: " . "http://" .$_SERVER['SERVER_NAME']. $pathInfo['dirname']."?qqq=".$msg1."#bottom"); 
 	}
 	else{
 		$msg1="false";
-		header("Location: " . "http://" .$_SERVER['SERVER_NAME']. $pathInfo['dirname']."?qqq=".$msg1); 
+		header("Location: " . "http://" .$_SERVER['SERVER_NAME']. $pathInfo['dirname']."?qqq=".$msg1."#bottom"); 
 	}
 }
 
@@ -59,7 +59,5 @@ if(isset($_POST['form_one']) && $_POST['form_one']==1){
 		}
 
 }
-
-
 $conn->close();
 ?>
