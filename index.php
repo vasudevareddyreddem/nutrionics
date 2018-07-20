@@ -751,6 +751,9 @@
 					</div>
 					</div>
 				</div>
+				<script>
+				document.getElementById("contact").click();
+				</script>
 				<?php } ?>
 				
 				<?php if(isset($_GET['message'])&& $_GET['message']=='fail'){ ?>
@@ -762,6 +765,9 @@
 					</div>
 					</div>
 				</div>
+				<script>
+				document.getElementById("contact").click();
+				</script>
 				<?php } ?>
 				</span>
 				
