@@ -141,7 +141,7 @@
                              id="slide-19-layer-1" 
                              data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
                              data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" 
-                             data-fontsize="['90','90','90','45']"
+                             data-fontsize="['65','65','65','45']"
                              data-lineheight="['90','90','90','50']"
                              data-width="none"
                              data-height="none"
@@ -158,7 +158,7 @@
 
                              data-elementdelay="0.05" 
 
-                             style="z-index: 6; white-space: nowrap; font-weight: 800; letter-spacing:5px;color:#fff;text-shadow: 2px 2px 8px #000;">EAT RIGHT, BE BRIGHT! 
+                             style="z-index: 6; white-space: nowrap; font-weight: 600; letter-spacing:5px;color:#fff;text-shadow: 2px 2px 8px #000;">Fitness Training / Counselling
                         </div>
 
                         <!-- LAYER NR. 3 -->
@@ -213,7 +213,7 @@
 
                              data-elementdelay="0.1" 
 
-                             style="z-index: 5; white-space: nowrap;text-shadow: 2px 2px 8px #000;letter-spacing:10px">Live the Life 
+                             style="z-index: 5; white-space: nowrap;text-shadow: 2px 2px 8px #000;letter-spacing:10px">Diet Food Home Delivery  
                         </div>
 
                         <!-- LAYER NR. 2 -->
