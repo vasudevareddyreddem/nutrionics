@@ -762,7 +762,7 @@
 					</div>
 					</div>
 				</div>
-				<?php } else{?>
+				<?php } if(isset($_GET['message'])&& $_GET['message']=='fail'){ ?>
 				<div id="bottom" >
 				<div class="page-alerts">
 					<div class="alert alert-warning page-alert" id="alert-1">
