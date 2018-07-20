@@ -557,14 +557,15 @@
                     <div class="row">
                         <div class="col-md-12 text-center">
                             <h1>Subscribe to Newsletter</h1>
-                            <form class="newsletter-form">
+                            <form class="newsletter-form" action="contactpost.php" method="post" novalidate>
+							 <input type="hidden" name="form_one" value="">
                                 <div class="row">
                                     <div class="col-sm-4 col-sm-offset-4">
                                         <div class="input-group">
                                             <label class="sr-only" for="subscribe-email">Email address</label>
-                                            <input type="email" class="form-control" id="subscribe-email" placeholder="Enter your email">
+                                            <input type="email" name="mail" class="form-control" id="subscribe-email" placeholder="Enter your email">
                                             <span class="input-group-btn">
-                                                <input type="submit" class="btn btn-theme-color btn-lg">OK</button>
+                                                <input type="submit" name="submit" value="ok" class="btn btn-theme-color btn-lg">
                                             </span>
                                         </div>
                                     </div>
@@ -775,6 +776,8 @@
                         <div class="col-md-8">
                             <h4>Get in touch</h4>
                             <form name="sentMessage" action="contactpost.php" id="contactForm" method="post" >
+							<input type="hidden" name="form_one" value="1">
+
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="row control-group">
