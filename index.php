@@ -776,13 +776,13 @@
                     <div class="row">
                         <div class="col-md-8">
                             <h4>Get in touch</h4>
-                            <form name="sentMessage" action="contactpost.php" id="contactForm" method="post" novalidate>
+                            <form name="sentMessage" action="contactpost.php" id="contactForm" method="post" >
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="row control-group">
                                             <div class="form-group col-xs-12 controls">
                                                 <label>Name<span>*</span></label>
-                                                <input type="text" class="form-control" name="name" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                                                <input type="text" class="form-control" name="name" placeholder="Name" id="name" required >
                                                 <p class="help-block"></p>
                                             </div>
                                         </div>
@@ -793,7 +793,7 @@
                                         <div class="row control-group">
                                             <div class="form-group col-xs-12 controls">
                                                 <label>Email Address<span>*</span></label>
-                                                <input type="email" class="form-control" name="email" placeholder="Email Address" id="email" >
+                                                <input type="email" class="form-control" name="email" placeholder="Email Address" id="email" required >
                                                 <p class="help-block"></p>
                                             </div>
                                         </div> 
@@ -802,7 +802,7 @@
                                 <div class="row control-group">
                                     <div class="form-group col-xs-12 controls">
                                         <label>Message<span>*</span></label>
-                                        <textarea rows="5" class="form-control" name="message" placeholder="Message" id="message" ></textarea>
+                                        <textarea rows="5" class="form-control" name="message" placeholder="Message" id="message" required></textarea>
                                         <p class="help-block"></p>
                                     </div>
                                 </div>
