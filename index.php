@@ -927,13 +927,6 @@
 
   setTimeout(function() {
     $('#errormsg_1').fadeOut('fast');
-}, 50000); // <-- time in milliseconds
+}, 10000); // <-- time in milliseconds
 
 </script>
-
-
-
-
-
-
-

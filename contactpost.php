@@ -16,7 +16,12 @@ if(isset($_POST['form_one']) && $_POST['form_one']==''){
 	$pathInfo = pathinfo($currentPath); 
 	
 	if($conn->query($sql2) === TRUE){
-		header("Location: " . "http://" .$_SERVER['SERVER_NAME']. $pathInfo['dirname']); 
+		$msg1="true";
+		header("Location: " . "http://" .$_SERVER['SERVER_NAME']. $pathInfo['dirname']."?qqq=".$msg1); 
+	}
+	else{
+		$msg1="false";
+		header("Location: " . "http://" .$_SERVER['SERVER_NAME']. $pathInfo['dirname']."?qqq=".$msg1); 
 	}
 }
 
