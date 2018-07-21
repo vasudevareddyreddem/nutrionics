@@ -36,8 +36,6 @@ if(isset($_POST['form_one']) && $_POST['form_one']==1){
 	$subject = "Form submission";
 	$message = $name ." wrote the following:" . "\n\n" . $_POST['message'];
 	$headers = "From:" . $from;
-	mail($to,$subject,$message,$headers);
-	echo "Mail Sent. Thank you ";
 	$currentPath = $_SERVER['PHP_SELF']; 
 	$pathInfo = pathinfo($currentPath); 
 	//echo $pathInfo['dirname'];exit;
