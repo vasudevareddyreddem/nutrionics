@@ -554,7 +554,7 @@
             </div><!--services section 1 end-->
 			
 			
-			<span id="errormsg_1">
+			<span id="errormsg_2">
 				<?php
 				if(isset($_GET['qqq'])&& $_GET['qqq']=='true'){
 					?>
@@ -960,6 +960,9 @@
 
   setTimeout(function() {
     $('#errormsg_1').fadeOut('fast');
+}, 10000); // <-- time in milliseconds
+ setTimeout(function() {
+    $('#errormsg_2').fadeOut('fast');
 }, 10000); // <-- time in milliseconds
 
 </script>
