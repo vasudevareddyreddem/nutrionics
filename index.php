@@ -3,7 +3,7 @@
     
 
 <head>
-        <title>Nutrition</title>
+        <title>Nutrionics</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -1071,16 +1071,23 @@
             </div>
 			<div class="work-section-2">
                 <div class="container">
+                  
                     <div class="row">
-                        <div class="col-sm-12 text-center margin-btm-40">
-                            <div class="section-heading text-center">
-                                
-                                <h2 class="large section-title">Founder</h2>
-                            </div>
-                        </div>                                            
-                    </div><!--.row--> 
-                    <div class="row">
-                        fdsfsd
+					<div class="col-md-2 col-md-offset-4">
+                       <img class="img-responsive" src="img/founder.png" alt="founder">
+					</div>
+					<div class="col-md-4 ">
+					 <h2 class="">Founder</h2>
+                      <h4>Ms. Sana Sajjad</h4>
+					  <p>MSc - Dietetics / Nutrition</p>
+					  <p>Certified Fitness Instructor , </p>
+					</div>
+					<div class="clearfix">&nbsp;</div>
+					<p class="p-custom">
+					 Her  approach to nutrition involves balanced, healthy eating patterns, which I believes eliminates the need for diet pills. she is  specialized in the clinical and fitness fields and has solved numerous cases of severe metabolic disorders and enabled patients to achieve fitness related goals, guided many women who were suffering from hormonal issues .  she  belief in making people educate how the skin and hair react to various foods, how age related diseases affect people, and provides personalized nutrition counselling. </p> 
+					 <p class="p-custom">She have successfully held several workshops to guide people on a healthier path of life, especially focusing on IT employees. </p> 	
+					 <p class="p-custom">She has been awarded by Commissioner of Police (Hyderabad) for  helping the Hyderabad police departments about their fitness and diet. </p> 
+					 <p class="p-custom">She has been covered by many leading newspapers for her work on Diet and nutrition. </p> 
                     </div>
                 </div><!--.container-->
             </div>
