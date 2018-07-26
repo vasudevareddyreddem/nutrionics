@@ -1,8 +1,8 @@
 <?php
-$servername="166.62.26.2";
-$username="nutrionics";
-$password="nutrionics@123";
-$dbname="nutrionics";
+$servername="43.255.154.8";
+$username="nutrionics_db";
+$password="nutrionics_db@123";
+$dbname="nutrionics_db";
 $conn=new mysqli($servername,$username,$password,$dbname);
 if($conn->connect_error){
 die('connection failed:'.$conn->connect_error);
@@ -30,11 +30,11 @@ if(isset($_POST['form_one']) && $_POST['form_one']==1){
 	$sql="INSERT INTO contact(name,email,message,status)
 	VALUES  ('".$_POST['name']."','".$_POST['email']."','".$_POST['message']."','0')";
 	//echo $sql;exit;
-	$to = "banuribhavya97@gmail.com";
+	$to = "info@nutrionics.com";
 	$name = $_POST['name'];
 	$from = $_POST['email'];
-	$subject = "Form submission";
-	$message = $name ." wrote the following:" . "\n\n" . $_POST['message'];
+	$subject = "Nutrionics - request";
+	$message = 'Name :'.$name ."\n\n"." Message : ". $_POST['message'];
 	$headers = "From:" . $from;
 	$currentPath = $_SERVER['PHP_SELF']; 
 	$pathInfo = pathinfo($currentPath); 
