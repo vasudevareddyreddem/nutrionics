@@ -32,6 +32,46 @@
     
 
     </head>
+	<style>
+	.panel-group .panel {
+        border-radius: 0;
+        box-shadow: none;
+        border-color: #EEEEEE;
+    }
+
+    .panel-default > .panel-heading {
+        padding: 0;
+        border-radius: 0;
+        color: #212121;
+        background-color: #FAFAFA;
+        border-color: #EEEEEE;
+    }
+
+    .panel-title {
+        font-size: 14px;
+    }
+
+    .panel-title > a {
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+    }
+
+    .more-less {
+        float: right;
+        color: #212121;
+    }
+
+    .panel-default > .panel-heading + .panel-collapse > .panel-body {
+        border-top-color: #EEEEEE;
+    }
+	.head-cust-faq span{
+		font-size:20px
+	}
+	.rev_slider_wrapper, .rev_slider, .tp-fullwidth-forcer, .rev_slider .tp-bgimg.defaultimg {
+    max-height: 500px !important;
+	
+	</style>
 
     <body data-spy="scroll" data-target="#navigation" data-offset="80">
 
@@ -41,62 +81,13 @@
             <div id="rev_slider_4_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.0.7">
                 <ul>	
                     <!-- SLIDE  -->
-                    <li data-index="rs-16" data-transition="zoomout" data-slotamount="default"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="img/dark-bg-1.jpg"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-description="">
+                    <li data-index="rs-16" data-transition="zoomout" data-slotamount="default"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="img/dark-bg-1.jpg"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="Nutrionics" data-description="">
                         <!-- MAIN IMAGE -->
                         <img src="img/dark-bg-1.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
-                        <!-- LAYERS -->
-
-                        <!-- LAYER NR. 1 -->
-                        <div class="tp-caption NotGeneric-Title   tp-resizeme rs-parallaxlevel-0" 
-                             id="slide-16-layer-1" 
-                             data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-                             data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" 
-                             data-fontsize="['70','70','70','45']"
-                             data-lineheight="['70','70','70','65']"
-                             data-width="none"
-                             data-height="none"
-                             data-whitespace="nowrap"
-                             data-transform_idle="o:1;"
-
-                             data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;" 
-                             data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                             data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
-                             data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
-                             data-start="1000" 
-                             data-splitin="chars" 
-                             data-splitout="none" 
-                             data-responsive_offset="on" 
-
-                             data-elementdelay="0.05" 
-
-                             style="z-index: 5; white-space: nowrap;letter-spacing:5px;color:#fff;text-shadow: 2px 2px 8px #000;margin-top:120px">Welcome to Nutrionics 
-                        </div>
-
-                        <!-- LAYER NR. 2 -->
-                       <!-- <div class="tp-caption NotGeneric-SubTitle   tp-resizeme rs-parallaxlevel-0" 
-                             id="slide-16-layer-4" 
-                             data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-                             data-y="['middle','middle','middle','middle']" data-voffset="['52','52','52','51']" 
-                             data-width="none"
-                             data-height="none"
-                             data-whitespace="nowrap"
-                             data-transform_idle="o:1;"
-
-                             data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                             data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                             data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" 
-                             data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
-                             data-start="1500" 
-                             data-splitin="none" 
-                             data-splitout="none" 
-                             data-responsive_offset="on" 
-
-
-                             style="z-index: 6; white-space: nowrap;color:#45b1b9;">Loss the Fact 
-                        </div>-->
+                       
                     </li>
                     <!-- SLIDE  -->
-                    <li data-index="rs-19" data-transition="zoomout" data-slotamount="default"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="img/banner2.png"  data-rotate="0"  data-saveperformance="off"  data-title="HTML5 Video" data-description="">
+                    <li data-index="rs-19" data-transition="zoomout" data-slotamount="default"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="img/banner2.png"  data-rotate="0"  data-saveperformance="off"  data-title="Fitness Training & Counselling" data-description="">
                         <!-- MAIN IMAGE -->
                         <img src="img/banner2.png"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
@@ -158,34 +149,13 @@
 
                              data-elementdelay="0.05" 
 
-                             style="z-index: 6; white-space: nowrap; font-weight: 600; letter-spacing:5px;color:#fff;text-shadow: 2px 2px 8px #000;">Fitness Training / Counselling
+                             style="z-index: 6; white-space: nowrap; font-weight: 600; letter-spacing:5px;color:#fff;text-shadow: 2px 2px 8px #000;">Fitness Training & Counselling
                         </div>
 
-                        <!-- LAYER NR. 3 -->
-                        <div class="tp-caption NotGeneric-SubTitle   tp-resizeme rs-parallaxlevel-0" 
-                             id="slide-19-layer-4" 
-                             data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-                             data-y="['middle','middle','middle','middle']" data-voffset="['52','52','52','51']" 
-                             data-width="none"
-                             data-height="none"
-                             data-whitespace="nowrap"
-                             data-transform_idle="o:1;"
-
-                             data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                             data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                             data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" 
-                             data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
-                             data-start="1500" 
-                             data-splitin="none" 
-                             data-splitout="none" 
-                             data-responsive_offset="on" 
-
-
-                             style="z-index: 7; white-space: nowrap;font-size:25px;font-weight:600;">Loss the weight
-                        </div>
+                      
                     </li>
                     <!-- SLIDE  -->
-                    <li data-index="rs-20" data-transition="zoomin" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="img/dark-bg-2.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Love it?" data-description="">
+                    <li data-index="rs-20" data-transition="zoomin" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="img/dark-bg-2.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Diet Food Home Delivery " data-description="">
                         <!-- MAIN IMAGE -->
                         <img src="img/dark-bg-2.jpg"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 -500" data-offsetend="0 500" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
@@ -195,7 +165,7 @@
                              id="slide-20-layer-1" 
                              data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
                              data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" 
-                             data-fontsize="['90','90','90','45']"
+                             data-fontsize="['65','65','65','45']"
                              data-lineheight="['90','90','90','50']"
                              data-width="none"
                              data-height="none"
@@ -216,28 +186,7 @@
                              style="z-index: 5; white-space: nowrap;text-shadow: 2px 2px 8px #000;letter-spacing:10px">Diet Food Home Delivery  
                         </div>
 
-                        <!-- LAYER NR. 2 -->
-                        <div class="tp-caption NotGeneric-SubTitle   tp-resizeme rs-parallaxlevel-0" 
-                             id="slide-20-layer-4" 
-                             data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-                             data-y="['middle','middle','middle','middle']" data-voffset="['52','52','52','51']" 
-                             data-width="none"
-                             data-height="none"
-                             data-whitespace="nowrap"
-                             data-transform_idle="o:1;"
-
-                             data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                             data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                             data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" 
-                             data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
-                             data-start="1500" 
-                             data-splitin="none" 
-                             data-splitout="none" 
-                             data-responsive_offset="on" 
-
-
-                             style="z-index: 6; white-space: nowrap;">Loss the Weight 
-                        </div>
+                       
                     </li>
                 </ul>
             </div>
@@ -278,95 +227,7 @@
                 </div><!--/.container -->
             </div>
         </section><br>
-		<section >
-           <br>
-           <br>
-           <br>
-           <br>
-           <br>
-           <br>
-                <div class="container">
-                <div class=" col-md-3 col-20">
-					<div class="" >
-						<div class="">
-							<div class="frontside">
-								<div class="card">
-									<div class="card-body text-center">
-										<p><img class=" img-fluid" src="img/healtyicon.png" alt="card image"></p>
-										<h5 class="card-title">Weight Gain Diet / Weight Loss Diet</h5>
-										
-										
-										
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class=" col-md-3 col-20">
-					<div class="" >
-						<div class="">
-							<div class="frontside">
-								<div class="card">
-									<div class="card-body text-center">
-										<p><img class=" img-fluid" src="img/eat.png" alt="card image"></p>
-										<h5 class="card-title">Therapeutic Diets</h5>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class=" col-md-3 col-20">
-					<div class="" >
-						<div class="">
-							<div class="frontside">
-								<div class="card">
-									<div class="card-body text-center">
-										<p><img class=" img-fluid" src="img/exercise.png" alt="card image"></p>
-										<h5 class="card-title">Diet for Pregnant / Lactating Mothers</h5>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class=" col-md-3 col-20">
-					<div class="" >
-						<div class="">
-							<div class="frontside">
-								<div class="card">
-									<div class="card-body text-center">
-										<p><img class=" img-fluid" src="img/child.png" alt="card image"></p>
-										<h5 class="card-title">Child Nutrition </h5>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>	
-				<div class=" col-md-3 col-20">
-					<div class="" >
-						<div class="">
-							<div class="frontside">
-								<div class="card">
-									<div class="card-body text-center">
-										<p><img class=" img-fluid" src="img/fitness.png" alt="card image"></p>
-										<h5 class="card-title">Fitness Counselling / Training </h5>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			
-			
-			
-					</div>
-                </div>
-           
-        </section>
-        <section id="about" class="padding-80">
+		 <section id="about" class="padding-80">
 
             <!--about page content-->
             <div class="about-section">
@@ -413,6 +274,147 @@
           
             <!--page about content end here-->            
         </section>
+		<section >
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+		    <div class="container">
+                  <div class=" col-md-3">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="img/healtyicon.png" alt="card image"></p>
+                                    <h5 class="card-title">WEIGHT LOSS-PRO</h5>
+                                    <p class="card-text ">A perfect program for those wanting to lose weight as well as inches.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                   
+                                   
+                                    <p class="card-text">A perfect program for those wanting to lose weight as well as inches. Depending on your goal, the diet plans are matched with your food habits, timings & lifestyle. The plans are simple, easy to follow and with a variety of options to choose from.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<div class=" col-md-3">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="img/exercise.png" alt="card image"></p>
+                                    <h5 class="card-title">STAY FIT & ACTIVE</h5>
+                                    <p class="card-text">Designed for anyone with a busy corporate lifestyle, frequent travel & erratic work hours. </p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                               
+                                 
+                                    <p class="card-text"> The focus is on making you Energetic, Active while Losing Weight & Inches. The special E-kit with tools such as Travel kit, Dine-Out guide, Alcohol Guide are designed to make the program fit into your life. It's one of the most effective weight loss programs in India for any working professional.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<div class=" col-md-3">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="img/eat.png" alt="card image"></p>
+                                    <h5 class="card-title">MANAGE HEALTH CONDITION</h5>
+                                    <p class="card-text">This is a very efficacious program for those who have medical and health conditions such as diabetes,</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    
+                                    <p class="card-text"> high cholesterol, hypothyroidism or abnormal lipid profile. This program is easy to follow with high success rate and no special cooking involved. Every step here is taken after inspecting and analyzing your health records. A complete blood tests are done under medical experts .home visits are also available and then your routine plan is prepared.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<div class=" col-md-3">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="img/pcos.png" alt="card image"></p>
+                                    <h5 class="card-title">PCOS</h5>
+                                    <p class="card-text">PCOS is a hormonal disorder affecting many women leading to abnormal weight gain, </p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                  
+                                    <p class="card-text">high sugar levels and infertility. Losing weight is the only way to manage PCOS. Many skin disorders like Acne, pigmentation and abnormal hair growth occurs because of this hormonal issues. A consultation with the dermatologist doctors , blood investigations and diet consultations are included for better results.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<div class=" col-md-3">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="img/body-trans.png" alt="card image"></p>
+                                    <h5 class="card-title">BODY TRANSFORMATION</h5>
+                                    <p class="card-text">The right mix of nutrients, water, sleep, activity and our GUIDANCE is all you need to transform. </p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                  
+                                    <p class="card-text"> We not only plan your nutrition, but very closely mentor you on all fronts relating to your exercise schedule by our fitness experts . The exclusive program includes Daily Food Tracker, Metabolic Boosters, Cleansing Diets, Exercise Activity Guides & Trackers. We also prescribe foods to support your pre & post workout needs.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+					</div>
+              
+                </div>
+           
+        </section>
+       
 		<section id="how-it-works" class="padding-80">
 
            
@@ -420,14 +422,199 @@
             <div class="purchase-now parallax" data-stellar-background-ratio="0.5">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-12">
-                            <h1 class="wow animated fadeInLeft text-center" data-wow-delay="0.3s">HOW IT WORKS</h1>
-							<br>
-							<p class="p-custom text-center ">
-					  There's a quiet revolution in the world of fitness. And you can hear its approaching sounds not in the form of thundering hooves but in the delicate lilt of quiet clicks. Fitness, health and weight loss has moved online taking the world with it. Get customized weight loss and health diets on nourishgenie.com that snugly and beautifully fit in with your individual health profile. 
-
-
-					   </p>
+					<h1 class="wow animated fadeInLeft text-center" data-wow-delay="0.3s">HOW IT WORKS</h1>
+					<br>	
+					<br>
+					<br>
+					<div class="stepwizard">
+						<div class="stepwizard-row">
+							<div class="stepwizard-step">
+								<button type="button" class="btn btn-default btn-circle" disabled="disabled">1</button>
+								<h5 style="color:#fff">Select your program</h5>
+							</div>
+							<div class="stepwizard-step">
+								<button type="button" class="btn btn-default btn-circle" disabled="disabled">2</button>
+								<h5 style="color:#fff">Fill the enquiry form</h5>
+							</div>
+							<div class="stepwizard-step">
+								<button type="button" class="btn btn-default btn-circle" disabled="disabled">3</button>
+								<h5 style="color:#fff">Get connected </h5>
+							</div> 
+						</div>
+					</div>
+					<br>
+					<div class="clearfix">&nbsp; </div>
+                        <div class="col-md-12 info-card">
+                            
+							
+							
+								<div class="clearfix">&nbsp;</div>
+								<div class="col-md-12">
+            <div class="panel with-nav-tabs panel-primary  boder-pann">
+                <div class="panel-heading bg-site">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#tab1primary" data-toggle="tab">Standard Package</a></li>
+                            <li><a href="#tab2primary" data-toggle="tab">Premium Package</a></li>
+                           
+                        </ul>
+                </div>
+                <div class="panel-body">
+                    <div class="tab-content">
+          <div class="tab-pane fade in active" id="tab1primary">
+		  <h3 class="text-center pd-20">Standard Package</h3>
+		<div class="row">
+        <div class="col-md-4 col-sm-6">
+            <div class="pricingTable">
+                <div class="pricingTable-header">
+                    <span class="heading">
+                        <h3>&nbsp;</h3>
+                    </span>
+                    <span class="price-value">30 <span class="currency">Days</span><span class="mo"> </span></span>
+                </div>
+ 
+                <div class="pricingContent">
+                    <ul>
+                        <li> <h3 style="color:#fff">Charge : ₹ 4500</h3></li>
+                        <li> Lose Upto 4-7 Kgs*</li>
+                       
+                    </ul>
+                </div><!-- /  CONTENT BOX-->
+ 
+                <div class="pricingTable-sign-up">
+                     <a href="#" class="btn btn-block btn-default" data-toggle="modal" data-target="#myModal">Join Today</a>
+                </div><!-- BUTTON BOX-->
+            </div>
+        </div>
+		  <div class="col-md-4 col-sm-6">
+            <div class="pricingTable">
+                <div class="pricingTable-header">
+                    <span class="heading">
+                        <h3>&nbsp;</h3>
+                    </span>
+                    <span class="price-value">60 <span class="currency">Days</span><span class="mo"> </span></span>
+                </div>
+ 
+                <div class="pricingContent">
+                    <ul>
+                        <li> <h3 style="color:#fff">Charge : ₹ 8500</h3></li>
+						 <li> Lose Upto 8-12 Kgs*</li>
+                       
+                    </ul>
+                </div><!-- /  CONTENT BOX-->
+ 
+                <div class="pricingTable-sign-up">
+                     <a href="#" class="btn btn-block btn-default" data-toggle="modal" data-target="#myModal">Join Today</a>
+                </div><!-- BUTTON BOX-->
+            </div>
+        </div>
+		  <div class="col-md-4 col-sm-6">
+            <div class="pricingTable">
+                <div class="pricingTable-header">
+                    <span class="heading">
+                        <h3>&nbsp;</h3>
+                    </span>
+                    <span class="price-value">90 <span class="currency">Days</span><span class="mo"> </span></span>
+                </div>
+ 
+                <div class="pricingContent">
+                    <ul>
+                        <li> <h3 style="color:#fff">Charge : ₹ 12500</h3></li>
+						 <li> Lose Upto 12-22 Kgs*</li>
+                       
+                    </ul>
+                </div><!-- /  CONTENT BOX-->
+ 
+                <div class="pricingTable-sign-up">
+                     <a href="#" class="btn btn-block btn-default" data-toggle="modal" data-target="#myModal">Join Today</a>
+                </div><!-- BUTTON BOX-->
+            </div>
+        </div>
+        
+       
+        </div>
+						
+						
+						</div>
+                        <div class="tab-pane fade" id="tab2primary">
+							 <h3 class="text-center pd-20">Premium Package</h3>
+		<div class="row">
+        <div class="col-md-4 col-sm-6">
+            <div class="pricingTable">
+                <div class="pricingTable-header">
+                    <span class="heading">
+                        <h3>&nbsp;</h3>
+                    </span>
+                    <span class="price-value">30 <span class="currency">Days</span><span class="mo"> </span></span>
+                </div>
+ 
+                <div class="pricingContent">
+                    <ul>
+                        <li> <h3 style="color:#fff">Charge : ₹ 14999</h3></li>
+                        
+                       
+                    </ul>
+                </div><!-- /  CONTENT BOX-->
+ 
+                <div class="pricingTable-sign-up">
+                     <a href="#" class="btn btn-block btn-default" data-toggle="modal" data-target="#myModal">Join Today</a>
+                </div><!-- BUTTON BOX-->
+            </div>
+        </div>
+		  <div class="col-md-4 col-sm-6">
+            <div class="pricingTable">
+                <div class="pricingTable-header">
+                    <span class="heading">
+                        <h3>&nbsp;</h3>
+                    </span>
+                    <span class="price-value">60 <span class="currency">Days</span><span class="mo"> </span></span>
+                </div>
+ 
+                <div class="pricingContent">
+                    <ul>
+                        <li> <h3 style="color:#fff">Charge : ₹ 27450</h3></li>
+						 
+                       
+                    </ul>
+                </div><!-- /  CONTENT BOX-->
+ 
+                <div class="pricingTable-sign-up">
+                     <a href="#" class="btn btn-block btn-default" data-toggle="modal" data-target="#myModal">Join Today</a>
+                </div><!-- BUTTON BOX-->
+            </div>
+        </div>
+		  <div class="col-md-4 col-sm-6">
+            <div class="pricingTable">
+                <div class="pricingTable-header">
+                    <span class="heading">
+                        <h3>&nbsp;</h3>
+                    </span>
+                    <span class="price-value">90 <span class="currency">Days</span><span class="mo"> </span></span>
+                </div>
+ 
+                <div class="pricingContent">
+                    <ul>
+                        <li> <h3 style="color:#fff">Charge : ₹ 42450</h3></li>
+						
+                       
+                    </ul>
+                </div><!-- /  CONTENT BOX-->
+ 
+                <div class="pricingTable-sign-up">
+                     <a href="#" class="btn btn-block btn-default" data-toggle="modal" data-target="#myModal">Join Today</a>
+                </div><!-- BUTTON BOX-->
+            </div>
+        </div>
+        
+       
+        </div>
+						
+						</div>
+                      
+    
+                    </div>
+                </div>
+            </div>
+        </div>
                         </div>
                      
                     </div>
@@ -463,10 +650,9 @@
                     </div>
 					<br>
                     <div class="row">
-					
-                        <div class="col-md-6 wow animated fadeInLeft" data-wow-delay="0.3s">
+					<!--<div class="col-md-6 wow animated fadeInLeft" data-wow-delay="0.3s">
 
-                            <div class="row margin-btm-20">
+                            <div class="row ">
                                 <div class="col-md-2">
                                     <div class="services-icon">
                                         <i class="fa fa-leaf"></i>
@@ -478,8 +664,8 @@
                                        
                                     </div>
                                 </div>
-                            </div><!--.services row end-->
-                            <div class="row margin-btm-20">
+                            </div>
+                            <div class="row">
                                 <div class="col-md-2">
                                     <div class="services-icon">
                                         <i class="fa fa-leaf"></i>
@@ -491,8 +677,8 @@
                                        
                                     </div>
                                 </div>
-                            </div><!--.services row end-->
-                            <div class="row margin-btm-20">
+                            </div>
+                            <div class="row ">
                                 <div class="col-md-2">
                                     <div class="services-icon">
                                         <i class="fa fa-leaf"></i>
@@ -504,12 +690,11 @@
                                        
                                     </div>
                                 </div>
-                            </div><!--.services row end-->
+                            </div>
                             
-                        </div>
-                        <div class="col-md-6 wow animated fadeInRight" data-wow-delay="0.6s">
+                     
 
-                             <div class="row margin-btm-20">
+                             <div class="row ">
                                 <div class="col-md-2">
                                     <div class="services-icon">
                                         <i class="fa fa-leaf"></i>
@@ -521,8 +706,8 @@
                                        
                                     </div>
                                 </div>
-                            </div><!--.services row end-->
-                            <div class="row margin-btm-20">
+                            </div>
+                            <div class="row ">
                                 <div class="col-md-2">
                                     <div class="services-icon">
                                         <i class="fa fa-leaf"></i>
@@ -534,8 +719,8 @@
                                        
                                     </div>
                                 </div>
-                            </div><!--.services row end-->
-                            <div class="row margin-btm-20">
+                            </div>
+                            <div class="row ">
                                 <div class="col-md-2">
                                     <div class="services-icon">
                                         <i class="fa fa-leaf"></i>
@@ -547,8 +732,112 @@
                                        
                                     </div>
                                 </div>
-                            </div><!--.services row end-->
-                        </div>
+                            </div>
+                        </div>-->
+    <div class="col-md-7 ">
+	<div class="panel-group head-cust-faq" id="accordion" role="tablist" aria-multiselectable="true">
+
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <i class="more-less glyphicon glyphicon-minus"></i>
+                       <span> Nutrition Consultation</span>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                    <p class="p-custom"> Our dietetics staff are committed to improving the health outcomes and quality of life of our clients through the integration and application of evidence based, culturally sensitive, individualized, and family centered medical nutrition therapy.</p> 
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingTwo">
+                <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <i class="more-less glyphicon glyphicon-plus"></i>
+                        <span> Doctor’s Consultation </span>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                <div class="panel-body">
+                       <p class="p-custom"> Get consultation with our team of doctors if you are having any clinical issues, or hormonal imbalance , get your skin and hair consultation free  and improve your beauty while simultaneously we correct you internally !</p> 
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingThree">
+                <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <i class="more-less glyphicon glyphicon-plus"></i>
+                        <span> Full body Assessment </span>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                <div class="panel-body">
+                 <p class="p-custom"> Our team will do a complete body assessment like your Basal metabolic rate , Fat percentage , BMI .</p>
+                </div>
+            </div>
+        </div> 
+		<div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingFour">
+                <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <i class="more-less glyphicon glyphicon-plus"></i>
+                        <span> Blood Parameters Check up </span>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                <div class="panel-body">
+                    <p class="p-custom">Our team will try to find out the root cause of every problem so that we can help your get fit better. A complete blood investigation like your lipid profile ,Complete blood picture, liver function tests, and nutrients analysis will be done.</p>
+                </div>
+            </div>
+        </div>	
+		<div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingFive">
+                <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        <i class="more-less glyphicon glyphicon-plus"></i>
+                        <span> Fitness Counselling and Training </span>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                <div class="panel-body">
+                   <p class="p-custom">Our fitness trainers have the knowledge, and they stay up to date on the latest information to help you come up with a personalized solution to help you reach your goals faster and get lasting results .  </p>
+				   <p class="p-custom">From housewives to old age people who cannot hit the gym , our physical fitness trainers are here to help you out .</p>
+                </div>
+            </div>
+        </div>
+		<div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingSix">
+                <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        <i class="more-less glyphicon glyphicon-plus"></i>
+                       <span>  Diet Food Home Delivery </span>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+                <div class="panel-body">
+						 <p class="p-custom">Safe , fresh, hygienic and quality food home delivery . We deliver packed lunches, high protein vegetarian and non vegetarian food to your address daily. </p>           
+				</div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+	<div class="col-md-5"><img class="img-responsive" src="img/services.png" alt="services"/>
+		<h4 class="text-center">Our Services</h4>
+	</div>
+					
+                        
                     </div>
                 </div>
             </div><!--services section 1 end-->
@@ -681,75 +970,130 @@
                                 <h2 class="large section-title">Our team</h2>
                             </div>
                         </div>                                            
-                    </div><!--.row-->
+                    </div><!--.row--> 
                     <div class="row">
                         <div class="col-sm-4">
-                            <div class="person">
-                                <img src="img/team-1.jpg" class="img-responsive" alt="">
-                                <div class="person-desc">
-                                    <h4>Daniel Smith</h4>
-                                    <em>Creative Designer</em>
-                                    <p>
-                                        Vivamus motestues phasellus enim sed orci eu pharetra. Donec posuere nunc vitae tortor sagittis feugiat in non massa. Quisqueeas sed mi nec.
-                                    </p>
-                                </div>
-                            </div>
+						<div class="panel panel-primary boder-pann">
+						  <div class="panel-heading bg-site "><h4 class="text-center" style="color:#fff">Qualified Dietitians </h4></div>
+							<div class="panel-body"> 
+								<p class="p-team">
+									 Our dietetics staff are committed to improving the health outcomes and quality of life of our clients through the integration and application of evidence based, culturally sensitive, individualized, and family centered medical nutrition therapy.
+<br>									 
+<br>									 
+								</p>
+							</div>
+						</div>
+                           
                         </div><!--team-col-->
                         <div class="col-sm-4">
-                            <div class="person">
-                                <img src="img/team-2.jpg" class="img-responsive" alt="">
-                                <div class="person-desc">
-                                    <h4>maria Smith</h4>
-                                    <em>Team manager</em>
-                                    <p>
-                                        Vivamus motestues phasellus enim sed orci eu pharetra. Donec posuere nunc vitae tortor sagittis feugiat in non massa. Quisqueeas sed mi nec.
-                                    </p>
-                                </div>
-                            </div>
+						<div class="panel panel-primary boder-pann">
+						  <div class="panel-heading bg-site"><h4 class="text-center" style="color:#fff">Team of Doctors </h4></div>
+							<div class="panel-body"> 
+								<p class="p-team">
+									Our team of doctors include general Physicians and also Dermatologist doctors which will help you guide you better with all your clinical issues and also if you are having any skin issues with PCOS then the team of dermat doctors are at your help .
+									<br>
+									<br>
+								</p>
+							</div>
+						</div>
+                           
                         </div><!--team-col-->
                         <div class="col-sm-4">
-                            <div class="person">
-                                <img src="img/team-3.jpg" class="img-responsive" alt="">
-                                <div class="person-desc">
-                                    <h4>Daniel Smith</h4>
-                                    <em>Creative Designer</em>
-                                    <p>
-                                        Vivamus motestues phasellus enim sed orci eu pharetra. Donec posuere nunc vitae tortor sagittis feugiat in non massa. Quisqueeas sed mi nec.
-                                    </p>
-                                </div>
-                            </div>
+						<div class="panel panel-primary boder-pann">
+						  <div class="panel-heading bg-site"><h4 class="text-center" style="color:#fff">Fitness trainers</h4></div>
+							<div class="panel-body"> 
+								<p class="p-team">
+									  Our fitness trainers have the knowledge, and they stay up to date on the latest information to help you come up with a personalized solution to help you reach your goals faster and get lasting results. Ask us how our personal trainers can help you get started today. 
+								</p>
+							</div>
+						</div>
+                           
                         </div><!--team-col-->
                     </div>
                 </div><!--.container-->
             </div><!--team section end-->
             <!--fun facts-->
+			<div class="testi parallax " data-stellar-background-ratio="0.5">
+                <div class="container">
+                    <div class="row">
+					
+                        <div class="col-md-8 col-md-offset-2 text-center">
+						<h1 class="text-center " style="color:#fff;z-index:1024"> Our Happy clients</h1>
+							<br>
+                            <div id="testi-carousel" class="owl-carousel">
+						
+                                <div>
+                                   
+                                    <h4>
+                                        I am very happy the way Dt.Sana handles the clients , lost 12kgs and i feel super energetic after this healthy weightloss. All the best team
+                                    </h4>
+                                    <p>- Jonathan Kiran ( Business Development Manager )</p>
+                                </div><!--testimonials item like paragraph-->
+                                <div>
+                                   
+                                    <h4>
+                                        I was leading a stress full life and was suffering from PCOD , the diet and the guidance helped me a lot to over come my depression and lose weight . Lost 7kgs in one month'' 
+                                    </h4>
+                                    <p>- Ms.Sowmya (Fashion Designer )</p>
+                                </div><!--testimonials item like paragraph-->
+                                <div>
+                                    <img src="img/t-3.jpg" alt="">
+                                    <h4>
+                                        My Fathers creatinine levels were very high and i was tensed alot , that moment i consulted Dt.Sana and she guided me with foods to include and exclude and how to reduce the creatinine levels through diet 
+                                    </h4>
+                                    <p> - Mr.Raghu Srinivas (Bank employee)</p>
+                                </div>
+								<div>
+                                    <img src="img/t-3.jpg" alt="">
+                                    <h4>
+                                        I was suffering from weight issues and was not able to conceive after my marriage . The diet and right kind of exercise routine helped me alot . I am blessed with a baby boy :) .All the best Dt.Sana and team 
+                                    </h4>
+                                    <p> - Lakshmi ( Marketing Manager )</p>
+                                </div>	
+								<div>
+                                    <img src="img/t-3.jpg" alt="">
+                                    <h4>
+                                        Lost 11 kgs , with the proper diet and exercise routine , i was leading a hectic lifestyle with tight schedule . Dt.Sana was very motivating all the time and patiently handled my issues . Thank a lot Team   
+                                    </h4>
+                                    <p> - Mr.Murli ( MD , Software company )</p>
+                                </div>
+								<div>
+                                    <img src="img/t-3.jpg" alt="">
+                                    <h4>
+                                       I was not losing weight after working out in the gym from the past 2 years . My weight was stuck . I happen to consult Dt.Sana and she explained me about the plateau stage and made changes in my workouts in coordination with my trainer. Lost 9kgs in a month with 6''inch loss in my abdomen area. Very happy and wish her all success.
+                                    </h4>
+                                    <p> -  Mr.Mahender ,Manager -Microsoft Company.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<div class="work-section-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 text-center margin-btm-40">
+                            <div class="section-heading text-center">
+                                
+                                <h2 class="large section-title">Founder</h2>
+                            </div>
+                        </div>                                            
+                    </div><!--.row--> 
+                    <div class="row">
+                        fdsfsd
+                    </div>
+                </div><!--.container-->
+            </div>
             <div class=" fun-facts parallax" id="numbers" data-stellar-background-ratio="0.5">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-3 margin-btm-20">
+                        <div class="col-md-12 margin-btm-20">
                             <div class="fact-inner">
-                                <h2 class="counter">34565</h2>
-                                <h4>Happy Clients</h4>
+                                <h2 class="text-center">EAT RIGHT, BE BRIGHT! </h2>
+                                
                             </div>
                         </div><!--fun col-->
-                        <div class="col-md-3 margin-btm-20">
-                            <div class="fact-inner">
-                                <h2 class="counter">1599</h2>
-                                <h4>Happy Customers</h4>
-                            </div>
-                        </div><!--fun col-->
-                        <div class="col-md-3 margin-btm-20">
-                            <div class="fact-inner">
-                                <h2 class="counter">99999</h2>
-                                <h4>Services</h4>
-                            </div>
-                        </div><!--fun col-->
-                        <div class="col-md-3 margin-btm-20">
-                            <div class="fact-inner">
-                                <h2 class="counter">12</h2>
-                                <h4>Our Team</h4>
-                            </div>
-                        </div><!--fun col-->
+                       
                     </div>
                 </div>
             </div>
@@ -856,10 +1200,10 @@
                                 <hr>
                                 <h4>Elsewhere</h4>
                                 <ul class="list-inline social-colored"> 
-                                    <li><a href="#"><i class="fa fa-facebook icon-fb" data-toggle="tooltip" title="" data-original-title="Facebook" data-placement="top"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter icon-twit" data-toggle="tooltip" title="" data-original-title="Twitter" data-placement="top"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus icon-plus" data-toggle="tooltip" title="" data-original-title="Google pluse" data-placement="top"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin icon-in" data-toggle="tooltip" title="" data-original-title="Linkedin" data-placement="top"></i></a></li>
+                                    <li><a  target="_blank" href="https://www.facebook.com/Nutrionics/"><i class="fa fa-facebook icon-fb" data-toggle="tooltip" title="" data-original-title="Facebook" data-placement="top"></i></a></li>
+                                    <li><a target="_blank"  href="www.twitter.com/Nutrionics"><i class="fa fa-twitter icon-twit" data-toggle="tooltip" title="" data-original-title="Twitter" data-placement="top"></i></a></li>
+                        
+                                    <li><a target="_blank" href=" https://www.instagram.com/nutrionics/"><i class="fa fa-instagram icon-in" data-toggle="tooltip" title="" data-original-title="instagram" data-placement="top"></i></a></li>
 
                                 </ul> <!--colored social-->
                             </div>
@@ -915,7 +1259,86 @@
         <!--back to top-->
         <a href="#" class="scrollToTop"><i class="fa fa-angle-up"></i></a>
         <!--back to top end-->
+        <!--Contact modal Start-->
+		 <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog ">
+      <div class="modal-content">
+        <div class="modal-header bg-site">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style="color:#fff;">Join Today</h4>
+        </div>
+        <div class="modal-body">
+			 <div >
+			 <br>
+                    <div class="col-md-6">
+                        <div class="contact-col " >
+                            <i class="fa fa-phone" style="font-size:20px;margin-right:10px;"></i>
+                            +91 9618123311
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="contact-col " >
+                            <i class="fa fa-envelope" style="font-size:20px;margin-right:10px;"></i>
+                            teamnutrionics@gmail.com
+                        </div>
+                    </div>
+					<div class="clearfix">&nbsp;</div>
+                    <div class="clearfix" style="border-bottom:1px solid #ddd;position:relative;"><span style="position:absolute;
+    top:-15px;left: 50%;background: #fff;border: 1px solid #ddd;padding:5px 10px;border-radius: 50%;">or</span></div>
+                </div>
+				<br>
+				<br>
+          <form name="sentMessage" action="contactpost.php" id="contactForm" method="post" >
+							<input type="hidden" name="form_one" value="1">
 
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="row control-group">
+                                            <div class="form-group col-xs-12 controls">
+                                                <label>Name<span>*</span></label>
+                                                <input type="text" class="form-control" name="name" placeholder="Name" id="name" required >
+                                                <p class="help-block"></p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="row control-group">
+                                            <div class="form-group col-xs-12 controls">
+                                                <label>Email Address<span>*</span></label>
+                                                <input type="email" class="form-control" name="email" placeholder="Email Address" id="email" required >
+                                                <p class="help-block"></p>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                                <div class="row control-group">
+                                    <div class="form-group col-xs-12 controls">
+                                        <label>Message<span>*</span></label>
+                                        <textarea rows="5" class="form-control" name="message" placeholder="Message" id="message" required></textarea>
+                                        <p class="help-block"></p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div id="success"></div>
+                                <div class="row">
+                                    <div class="form-group col-xs-12">
+                                        <input type="submit" name="submit"  value="Send Message"  class="btn btn-theme-color btn-lg pull-right">
+										
+                                    </div>
+                                </div>
+                            </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+        <!--Contact modal  end-->
+		 
         <!--script files-->
         <script src="js/jquery.min.js" type="text/javascript"></script>
         <script src="js/moderniz.min.js" type="text/javascript"></script>
@@ -965,4 +1388,15 @@
     $('#errormsg_2').fadeOut('fast');
 }, 10000); // <-- time in milliseconds
 
+</script>
+<script>
+
+function toggleIcon(e) {
+    $(e.target)
+        .prev('.panel-heading')
+        .find(".more-less")
+        .toggleClass('glyphicon-plus glyphicon-minus');
+}
+$('.panel-group').on('hidden.bs.collapse', toggleIcon);
+$('.panel-group').on('shown.bs.collapse', toggleIcon);
 </script>
