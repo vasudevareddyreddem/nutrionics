@@ -30,7 +30,7 @@ if(isset($_POST['form_one']) && $_POST['form_one']==1){
 	$sql="INSERT INTO contact(name,email,message,status)
 	VALUES  ('".$_POST['name']."','".$_POST['email']."','".$_POST['message']."','0')";
 	//echo $sql;exit;
-	$to = "info@nutrionics.com";
+	$to = "team@nutrionics.in";
 	$name = $_POST['name'];
 	$from = $_POST['email'];
 	$subject = "Nutrionics - request";
