@@ -14,7 +14,14 @@ body {
 
   color: #121212;
 }
-
+.font-li li{
+	font-size:18px;
+}
+.font-20{
+	font-size:20px !important;
+	line-height:30px;
+	
+}
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -58,7 +65,7 @@ h6 {
 p {
   line-height: 25px;
   font-size: 14px;
-  color: #a7afb8;
+  color: #333;
 }
 
 a {
@@ -96,7 +103,9 @@ a:focus {
 .margin-btm-20 {
   margin-bottom: 20px;
 }
-
+ .md-hide{
+	  display:none;
+  }
 /*************
 **headings****/
 .section-heading {
@@ -333,7 +342,7 @@ bootstrap navbar overrides
 .navbar-default .navbar-nav > li > a {
   color: #fff;
   text-transform: capitalize;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
 }
@@ -1644,6 +1653,12 @@ our work section
   .purchase-now .btn-theme-color {
     float: none;
   }
+  .sm-hide{
+	  display:none;
+  }
+  .md-hide{
+	  display:block;
+  }
 }
 @media (max-width: 360px) {
   .home-overlay .main-flex-slider h1 {
@@ -1756,7 +1771,7 @@ iframe {
 .testi p {
   color: #fff;
   font-size: 12px;
-  text-transform: uppercase;
+  text-transform: initial;
   font-weight: 500;
 }
 
@@ -1859,27 +1874,30 @@ label span {
 
 /**********back to top*************/
 .scrollToTop {
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
-  text-align: center;
-  background: whiteSmoke;
-  font-weight: bold;
-  color: #fff;
-  font-size: 20px;
-  text-decoration: none;
-  position: fixed;
-  bottom: 0px;
-  right: 0px;
-  z-index: 999999;
-  display: none;
-  background: #9eca45;
-  opacity: 0.5;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    text-align: center;
+    background: whiteSmoke;
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    position: fixed;
+    bottom: 53px;
+    right: 20px;
+    z-index: 999999;
+    display: none;
+    background: #9eca45;
+    opacity: 1;
+	border-radius:50%;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+	-webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
 }
 
 .scrollToTop:hover {
@@ -2158,6 +2176,8 @@ section .section-title {
 .with-nav-tabs.panel-primary .nav-tabs > li > a:hover,
 .with-nav-tabs.panel-primary .nav-tabs > li > a:focus {
     color: #fff;
+	background-color: #aaa;
+	 text-transform: uppercase;
 }
 .with-nav-tabs.panel-primary .nav-tabs > .open > a,
 .with-nav-tabs.panel-primary .nav-tabs > .open > a:hover,
@@ -2194,20 +2214,20 @@ section .section-title {
 }
 .pricingTable{
     text-align: center;
-    background: #a3cd4e;
+    background: #000;
     padding-top: 5px;
     transition: all 0.5s ease-in-out 0s;
 }
 .pricingTable > .pricingTable-header{
     color:#fff;
-    background: #f89430;
+    background: #a2cc4e;
     height: 190px;
     position: relative;
     transition: all 0.5s ease 0s;
 }
 .pricingTable > .pricingTable-header:after{
     content: "";
-    border-bottom: 40px solid #a3cd4e;
+    border-bottom: 40px solid #000;
     border-left: 263px solid transparent;
     position: absolute;
     right:0px;
@@ -2263,7 +2283,7 @@ section .section-title {
 .pricingTable-sign-up > .btn-block{
     width: 80%;
     margin: 0 auto;
-    background: #f89430;
+    background: #a2cc4e;
     border:2px solid #fff;
     color:#fff;
     padding: 15px 12px;

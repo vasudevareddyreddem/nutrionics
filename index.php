@@ -28,7 +28,11 @@
         <link href="revolution/css/layers.css" rel="stylesheet">
         <link href="revolution/css/settings.css" rel="stylesheet">
 
-        
+        <?php header('Cache-Control: no cache');
+header("Cache-Control: no-store, no-cache, must-revalidate");
+header("Pragma: no-cache");
+ ?>
+
     
 
     </head>
@@ -69,13 +73,25 @@
 		font-size:20px
 	}
 	.rev_slider_wrapper, .rev_slider, .tp-fullwidth-forcer, .rev_slider .tp-bgimg.defaultimg {
-    max-height: 500px !important;
-	
+    max-height: 500px !important;}
+	#quote-carousel .carousel-indicators 
+{
+  right: 50%;
+ 
+  bottom: -50px;
+  margin-right: -19px;
+}
+	.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
 	</style>
 
     <body data-spy="scroll" data-target="#navigation" data-offset="80">
 
-        <section id="home">
+        <section id="" class="md-hide">
+		 <img src="img/dark-bg-1.jpg"  alt=""  class=" img-responsive" data-no-retina>
+		</section>
+        <section id="home" class="sm-hide">
         <div id="r5-classic" class="rev_slider_wrapper fullwidthbanner-container" data-alias="classicslider1" style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
             <!-- START REVOLUTION SLIDER 5.0.7 auto mode -->
             <div id="rev_slider_4_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.0.7">
@@ -205,7 +221,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand"  href="index.php"><img style="width:200px;height:auto;background:#fff;padding:25px;border-radius:10px;border:1px solid #ddd" class="img-responsive" src="img/logo.png" alt="logo"</a>
+                        <a class="navbar-brand sm-hide"  href="index.php"><img style="width:200px;height:auto;background:#fff;padding:25px;border-radius:10px;border:1px solid #ddd" class="img-responsive" src="img/logo.png" alt="logo"</a>
                     </div>
                     <div class="navbar-collapse collapse">
 
@@ -246,7 +262,7 @@
 					</div>
 					<div class="col-md-8">
 					
-					<h2>About  <strong class="text-site">us</strong></h2>
+					<h2>About us</h2>
                        <p class="p-custom">
 					  Food is an important part of life and it has a large effect on your energy levels, mood, academic and athletic performance. Look for helpful tips and updates on this website.
 						Our website plays a vital role in providing information on nutrition, healthy eating, Physical activity and food safety which is very satisfying.
@@ -300,7 +316,7 @@
                                 <div class="card-body text-center">
                                    
                                    
-                                    <p class="card-text">A perfect program for those wanting to lose weight as well as inches. Depending on your goal, the diet plans are matched with your food habits, timings & lifestyle. The plans are simple, easy to follow and with a variety of options to choose from.</p>
+                                    <p class="card-text"> Depending on your goal, the diet plans are matched with your food habits, timings & lifestyle. The plans are simple, easy to follow and with a variety of options to choose from.</p>
                                     
                                 </div>
                             </div>
@@ -316,7 +332,7 @@
                                 <div class="card-body text-center">
                                     <p><img class=" img-fluid" src="img/exercise.png" alt="card image"></p>
                                     <h5 class="card-title">STAY FIT & ACTIVE</h5>
-                                    <p class="card-text">Designed for anyone with a busy corporate lifestyle, frequent travel & erratic work hours. </p>
+                                    <p class="card-text">Designed for anyone with a busy corporate lifestyle, frequent travel & erratic work hours.  </p>
                                     
                                 </div>
                             </div>
@@ -326,7 +342,7 @@
                                 <div class="card-body text-center">
                                
                                  
-                                    <p class="card-text"> The focus is on making you Energetic, Active while Losing Weight & Inches. The special E-kit with tools such as Travel kit, Dine-Out guide, Alcohol Guide are designed to make the program fit into your life. It's one of the most effective weight loss programs in India for any working professional.</p>
+                                    <p class="card-text"> The focus is on making you Energetic, Active while Losing Weight & Inches.The special E-kit with tools such as Travel kit, Dine-Out guide, Alcohol Guide are designed to make the program fit into your life. It's one of the most effective weight loss programs in India for any working professional.</p>
                                     
                                 </div>
                             </div>
@@ -342,7 +358,7 @@
                                 <div class="card-body text-center">
                                     <p><img class=" img-fluid" src="img/eat.png" alt="card image"></p>
                                     <h5 class="card-title">MANAGE HEALTH CONDITION</h5>
-                                    <p class="card-text">This is a very efficacious program for those who have medical and health conditions such as diabetes,</p>
+                                    <p class="card-text">This is a very efficacious program for those who have medical and health conditions such as diabetes, high cholesterol,</p>
                                     
                                 </div>
                             </div>
@@ -351,7 +367,7 @@
                             <div class="card">
                                 <div class="card-body text-center">
                                     
-                                    <p class="card-text"> high cholesterol, hypothyroidism or abnormal lipid profile. This program is easy to follow with high success rate and no special cooking involved. Every step here is taken after inspecting and analyzing your health records. A complete blood tests are done under medical experts .home visits are also available and then your routine plan is prepared.</p>
+                                    <p class="card-text"> hypothyroidism , abnormal lipid profile and for the women who are suffering from PCOS/PCOD and infertility. This program is easy to follow with high success rate and no special cooking involved. Every step here is taken after inspecting and analyzing your health records. A complete blood tests are done under medical experts .home visits are also available and then your routine plan is prepared.</p>
                                     
                                 </div>
                             </div>
@@ -365,9 +381,9 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="img/pcos.png" alt="card image"></p>
-                                    <h5 class="card-title">PCOS</h5>
-                                    <p class="card-text">PCOS is a hormonal disorder affecting many women leading to abnormal weight gain, </p>
+                                    <p><img class=" img-fluid" src="img/child.png" alt="card image"></p>
+                                    <h5 class="card-title">CHILD NUTRITION </h5>
+                                    <p class="card-text">A unique program is designed for children of age 6months to 15yrs ,Special weaning food preparation and home delivery is also included .  </p>
                                     
                                 </div>
                             </div>
@@ -376,7 +392,7 @@
                             <div class="card">
                                 <div class="card-body text-center">
                                   
-                                    <p class="card-text">high sugar levels and infertility. Losing weight is the only way to manage PCOS. Many skin disorders like Acne, pigmentation and abnormal hair growth occurs because of this hormonal issues. A consultation with the dermatologist doctors , blood investigations and diet consultations are included for better results.</p>
+                                    <p class="card-text"> Special diet program for picky eaters as well . </p>
                                     
                                 </div>
                             </div>
@@ -392,7 +408,7 @@
                                 <div class="card-body text-center">
                                     <p><img class=" img-fluid" src="img/body-trans.png" alt="card image"></p>
                                     <h5 class="card-title">BODY TRANSFORMATION</h5>
-                                    <p class="card-text">The right mix of nutrients, water, sleep, activity and our GUIDANCE is all you need to transform. </p>
+                                    <p class="card-text">The right mix of nutrients, water, sleep, activity and our GUIDANCE is all you need to transform.  </p>
                                     
                                 </div>
                             </div>
@@ -452,7 +468,7 @@
 								<div class="col-md-12">
             <div class="panel with-nav-tabs panel-primary  boder-pann">
                 <div class="panel-heading bg-site">
-                        <ul class="nav nav-tabs">
+                        <ul class="nav nav-tabs font-li">
                             <li class="active"><a href="#tab1primary" data-toggle="tab">Standard Package</a></li>
                             <li><a href="#tab2primary" data-toggle="tab">Premium Package</a></li>
                            
@@ -475,7 +491,12 @@
                 <div class="pricingContent">
                     <ul>
                         <li> <h3 style="color:#fff">Charge : ₹ 4500</h3></li>
-                        <li> Lose Upto 4-7 Kgs*</li>
+                        <li> Lose Upto 4-6 Kgs*</li>
+                        <li> Unique Health Assessment  </li>
+                        <li> Personalized Diet Session  </li>
+                        <li> Dynamic Monitoring  </li>
+                        <li> Fitness Counselling </li>
+                        <li> Maintenance Chart</li>
                        
                     </ul>
                 </div><!-- /  CONTENT BOX-->
@@ -497,7 +518,12 @@
                 <div class="pricingContent">
                     <ul>
                         <li> <h3 style="color:#fff">Charge : ₹ 8500</h3></li>
-						 <li> Lose Upto 8-12 Kgs*</li>
+						 <li> Lose Upto 8-10 Kgs*</li>
+						<li> Unique Health Assessment  </li>
+                        <li> Personalized Diet Session  </li>
+                        <li> Dynamic Monitoring  </li>
+                        <li> Fitness Counselling </li>
+                        <li> Maintenance Chart</li>
                        
                     </ul>
                 </div><!-- /  CONTENT BOX-->
@@ -519,7 +545,12 @@
                 <div class="pricingContent">
                     <ul>
                         <li> <h3 style="color:#fff">Charge : ₹ 12500</h3></li>
-						 <li> Lose Upto 12-22 Kgs*</li>
+						 <li> Lose Upto 12-15 Kgs*</li>
+						 <li> Unique Health Assessment  </li>
+                        <li> Personalized Diet Session  </li>
+                        <li> Dynamic Monitoring  </li>
+                        <li> Fitness Counselling </li>
+                        <li> Maintenance Chart</li>
                        
                     </ul>
                 </div><!-- /  CONTENT BOX-->
@@ -550,6 +581,11 @@
                 <div class="pricingContent">
                     <ul>
                         <li> <h3 style="color:#fff">Charge : ₹ 14999</h3></li>
+						 <li>Diet Food Home Delivery* </li>
+                        <li>Unique Maintenance Plan </li>
+                        <li> Orientation Call </li>
+                        <li> Phone Support & Dynamic Coaching </li>
+                        <li> Standard Feature</li>
                         
                        
                     </ul>
@@ -572,6 +608,11 @@
                 <div class="pricingContent">
                     <ul>
                         <li> <h3 style="color:#fff">Charge : ₹ 27450</h3></li>
+							 <li>Diet Food Home Delivery* </li>
+                        <li>Unique Maintenance Plan </li>
+                        <li> Orientation Call </li>
+                        <li> Phone Support & Dynamic Coaching </li>
+                        <li> Standard Feature</li>
 						 
                        
                     </ul>
@@ -594,6 +635,11 @@
                 <div class="pricingContent">
                     <ul>
                         <li> <h3 style="color:#fff">Charge : ₹ 42450</h3></li>
+							 <li>Diet Food Home Delivery* </li>
+                        <li>Unique Maintenance Plan </li>
+                        <li> Orientation Call </li>
+                        <li> Phone Support & Dynamic Coaching </li>
+                        <li> Standard Feature</li>
 						
                        
                     </ul>
@@ -897,66 +943,11 @@
 
 
 
-        <!--our work section start here-->
-        <section id="work" class="padding-80">
-
-             <div class="container">
-             <div class="row">
-                   
-					<div class="col-md-5">
-					<img class="img-responsive" src="img/story1.jpg">
-					</div>
-					 <div class="col-md-7">
-					<h2>Story Of <strong class="text-site">Success</strong></h2>
-                       <p class="p-custom">
-					  I have always loved exercise and thought that I was eating healthy but never got the results I wanted. However having my sessions with nutritionist have achieved fabulous results through making some life styles and diet changes. A huge Thank you for helping me to get where I have always wanted to be.
-
-
-					   </p>  
-					   <p class="p-custom">
-					  From Struggling to lose weight ever since, to having lost a whooping 60 kilos, my weight loss journey has been a “cake walk” thanks to Nutironics.
-
-
-					   </p>
-
-                    </div>
-                    </div>
-                    </div>
-        </section><!--#work-section-->
-
-        <!--our work section end-->
+        
 
 
 
-
-
-
-
-
-
-        <!--pricing table section start here-->
-
-
-        <section id="pricing" class="padding-80">
-
-
-
-            
-
-
-            <div class="pricing-section-2 parallax " data-stellar-background-ratio="0.5">
-                <div class="container text-center wow animated bounceIn">
-				   <p class="scrollto p-custom"> It's not a diet, It's a lifestyle</p>
-                    <h1>  HEALTHY  FITNESS </h1>
-                 
-                </div>
-            </div>
-
-        </section> <!--pricing table section end here-->
-
-
-
-<section id="work" >
+<section  >
 
            
             
@@ -1013,60 +1004,105 @@
                 </div><!--.container-->
             </div><!--team section end-->
             <!--fun facts-->
-			<div class="testi parallax " data-stellar-background-ratio="0.5">
+			<div class="testi parallax " data-stellar-background-ratio="0.5" id="work">
                 <div class="container">
-                    <div class="row">
-					
-                        <div class="col-md-8 col-md-offset-2 text-center">
-						<h1 class="text-center " style="color:#fff;z-index:1024"> Our Happy clients</h1>
-							<br>
-                            <div id="testi-carousel" class="owl-carousel">
-						
-                                <div>
-                                   
-                                    <h4>
-                                        I am very happy the way Dt.Sana handles the clients , lost 12kgs and i feel super energetic after this healthy weightloss. All the best team
-                                    </h4>
-                                    <p>- Jonathan Kiran ( Business Development Manager )</p>
-                                </div><!--testimonials item like paragraph-->
-                                <div>
-                                   
-                                    <h4>
-                                        I was leading a stress full life and was suffering from PCOD , the diet and the guidance helped me a lot to over come my depression and lose weight . Lost 7kgs in one month'' 
-                                    </h4>
-                                    <p>- Ms.Sowmya (Fashion Designer )</p>
-                                </div><!--testimonials item like paragraph-->
-                                <div>
-                                    <img src="img/t-3.jpg" alt="">
-                                    <h4>
-                                        My Fathers creatinine levels were very high and i was tensed alot , that moment i consulted Dt.Sana and she guided me with foods to include and exclude and how to reduce the creatinine levels through diet 
-                                    </h4>
-                                    <p> - Mr.Raghu Srinivas (Bank employee)</p>
-                                </div>
-								<div>
-                                    <img src="img/t-3.jpg" alt="">
-                                    <h4>
-                                        I was suffering from weight issues and was not able to conceive after my marriage . The diet and right kind of exercise routine helped me alot . I am blessed with a baby boy :) .All the best Dt.Sana and team 
-                                    </h4>
-                                    <p> - Lakshmi ( Marketing Manager )</p>
-                                </div>	
-								<div>
-                                    <img src="img/t-3.jpg" alt="">
-                                    <h4>
-                                        Lost 11 kgs , with the proper diet and exercise routine , i was leading a hectic lifestyle with tight schedule . Dt.Sana was very motivating all the time and patiently handled my issues . Thank a lot Team   
-                                    </h4>
-                                    <p> - Mr.Murli ( MD , Software company )</p>
-                                </div>
-								<div>
-                                    <img src="img/t-3.jpg" alt="">
-                                    <h4>
-                                       I was not losing weight after working out in the gym from the past 2 years . My weight was stuck . I happen to consult Dt.Sana and she explained me about the plateau stage and made changes in my workouts in coordination with my trainer. Lost 9kgs in a month with 6''inch loss in my abdomen area. Very happy and wish her all success.
-                                    </h4>
-                                    <p> -  Mr.Mahender ,Manager -Microsoft Company.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+				<div class='row'>
+				
+    <div class='col-md-offset-2 col-md-8'>
+		<h1 class="text-center " style="color:#fff;z-index:1024"> Our Happy clients</h1>
+		<br>
+      <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+        <!-- Bottom Carousel Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#quote-carousel" data-slide-to="1"></li>
+          <li data-target="#quote-carousel" data-slide-to="2"></li>
+          <li data-target="#quote-carousel" data-slide-to="3"></li>
+          <li data-target="#quote-carousel" data-slide-to="4"></li>
+          <li data-target="#quote-carousel" data-slide-to="5"></li>
+        </ol>
+        
+        <!-- Carousel Slides / Quotes -->
+        <div class="carousel-inner">
+        
+          <!-- Quote 1 -->
+          <div class="item active">
+          
+              <div class="row">
+             
+                <div class="col-sm-12 text-center">
+                  <p class="font-20">I am very happy the way Dt.Sana handles the clients , lost 12kgs and i feel super energetic after this healthy weightloss. All the best team</p>
+                  <small>Jonathan Kiran ( Business Development Manager</small>
+                </div>
+              </div>
+           
+          </div>
+          <!-- Quote 2 -->
+          <div class="item">
+         
+              <div class="row">
+               
+                <div class="col-sm-12 text-center">
+                  <p class="font-20">I was leading a stress full life and was suffering from PCOD , the diet and the guidance helped me a lot to over come my depression and lose weight . Lost 7kgs in one month</p>
+                  <small>Ms.Sowmya (Fashion Designer )</small>
+                </div>
+              </div>
+           
+          </div>
+          <!-- Quote 3 -->
+          <div class="item">
+          
+              <div class="row">
+               
+                <div class="col-sm-12 text-center">
+                  <p class="font-20">My Fathers creatinine levels were very high and i was tensed alot , that moment i consulted Dt.Sana and she guided me with foods to include and exclude and how to reduce the creatinine levels through diet </p>
+                  <small>Mr.Raghu Srinivas (Bank employee)</small>
+                </div>
+              </div>
+           
+          </div>   
+		  <div class="item">
+          
+              <div class="row">
+               
+                <div class="col-sm-12 text-center">
+                  <p class="font-20">I was suffering from weight issues and was not able to conceive after my marriage . The diet and right kind of exercise routine helped me alot . I am blessed with a baby boy :) .All the best Dt.Sana and team </p>
+                  <small>Lakshmi ( Marketing Manager )</small>
+                </div>
+              </div>
+           
+          </div>  
+		  <div class="item">
+          
+              <div class="row">
+               
+                <div class="col-sm-12 text-center">
+                  <p class="font-20">Lost 11 kgs , with the proper diet and exercise routine , i was leading a hectic lifestyle with tight schedule . Dt.Sana was very motivating all the time and patiently handled my issues . Thank a lot Team  </p>
+                  <small>Mr.Murli ( MD , Software company )</small>
+                </div>
+              </div>
+           
+          </div>
+		  <div class="item">
+          
+              <div class="row">
+               
+                <div class="col-sm-12 text-center">
+                  <p class="font-20">I was not losing weight after working out in the gym from the past 2 years . My weight was stuck . I happen to consult Dt.Sana and she explained me about the plateau stage and made changes in my workouts in coordination with my trainer. Lost 9kgs in a month with 6''inch loss in my abdomen area. Very happy and wish her all success. </p>
+                  <small> Mr.Mahender ,Manager -Microsoft Company.</small>
+                </div>
+              </div>
+           
+          </div>
+        </div>
+        
+      
+      </div>                          
+    </div>
+  </div>
+  
+  
+                    
                 </div>
             </div>
 			<div class="work-section-2">
@@ -1084,10 +1120,7 @@
 					</div>
 					<div class="clearfix">&nbsp;</div>
 					<p class="p-custom">
-					 Her  approach to nutrition involves balanced, healthy eating patterns, which I believes eliminates the need for diet pills. she is  specialized in the clinical and fitness fields and has solved numerous cases of severe metabolic disorders and enabled patients to achieve fitness related goals, guided many women who were suffering from hormonal issues .  she  belief in making people educate how the skin and hair react to various foods, how age related diseases affect people, and provides personalized nutrition counselling. </p> 
-					 <p class="p-custom">She have successfully held several workshops to guide people on a healthier path of life, especially focusing on IT employees. </p> 	
-					 <p class="p-custom">She has been awarded by Commissioner of Police (Hyderabad) for  helping the Hyderabad police departments about their fitness and diet. </p> 
-					 <p class="p-custom">She has been covered by many leading newspapers for her work on Diet and nutrition. </p> 
+					 Sana Fatima possess a  Masters degree in Nutrition & Dietetics and was specialized in clinical and fitness fields. She is regarded as  one of  the best nutritionists  in Hyderabad, and her  approach to nutrition involves balanced diet and healthy eating patterns, that eliminates the need for diet pills. She  has solved numerous cases of severe metabolic disorders and enabled patients to achieve fitness related goals, and cured many women from hormonal issues. Due to her vast experience in the area of nutrition, she acquired great insights over health and diet, and she can dig deep into the topics like skin, hair and age related diseases and  can provide personalized nutrition counselling. She has been awarded by the Commissioner of Police (Hyderabad) for helping the Hyderabad police departments about their fitness and diet. She held several workshops and guided celebrities, IT employees and all health conscious people on a much healthier path of life.
                     </div>
                 </div><!--.container-->
             </div>
@@ -1200,10 +1233,11 @@
                             <h4>Contact info</h4>
                             <div class="contact-info wow animated fadeInRight" data-wow-delay=".6s">
                                
-                                <p><i class="fa fa-home"></i> +91 9618123311</p>
+                                <p><i class="fa fa-phone"></i> +91 9618123311</p>
+                                <p><i class="fa fa-phone"></i> +91 9866979671</p>
                               
-                                <p><i class="fa fa-envelope"></i> <a href="#">teamnutrionics@gmail.com</a></p>
-                                <p><i class="fa fa-clock-o"></i> Monday-Friday 9:30-5:30pm</p>
+                                <p><i class="fa fa-envelope"></i> <a href="#"> team@nutrionics.com</a></p>
+                               
                                 <hr>
                                 <h4>Elsewhere</h4>
                                 <ul class="list-inline social-colored"> 
@@ -1228,18 +1262,19 @@
                         <div class="contact-col wow animated flipInY" data-wow-delay=".3s">
                             <i class="fa fa-phone"></i>
                             <p>+91 9618123311</p>
+                            <p> +91 9866979671</p>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="contact-col wow animated flipInY" data-wow-delay=".3s">
                             <i class="fa fa-envelope"></i>
-                            <p>teamnutrionics@gmail.com</p>
+                            <p>team@nutrionics.com</p>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="contact-col wow animated flipInY" data-wow-delay=".3s">
-                            <i class="fa fa-home"></i>
-                            <p>Lorem Ipsum is simply dummy <br>text of the printing </p>
+                            <i class="fa fa-globe"></i>
+                            <p>www.nutrionics.in</p>
                         </div>
                     </div>
                 </div>
@@ -1251,7 +1286,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-sm-6 copyright">
-                        <span>&copy;2018. nutritionist. All right reserved</span>
+                        <span>team@nutrionics.com</span>
                     </div>
                     <div class="col-md-6 col-sm-6 footer-nav">
                         <ul class="list-inline">
@@ -1264,7 +1299,7 @@
             </div>
         </section><!--footer end-->
         <!--back to top-->
-        <a href="#" class="scrollToTop"><i class="fa fa-angle-up"></i></a>
+        <a href="#" class="scrollToTop"><i class="fa fa-arrow-up"></i></a>
         <!--back to top end-->
         <!--Contact modal Start-->
 		 <!-- Modal -->
@@ -1282,12 +1317,14 @@
                         <div class="contact-col " >
                             <i class="fa fa-phone" style="font-size:20px;margin-right:10px;"></i>
                             +91 9618123311
+							<br>
+							<i class="fa fa-phone" style="font-size:20px;margin-right:10px;"></i> +91 9866979671
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="contact-col " >
                             <i class="fa fa-envelope" style="font-size:20px;margin-right:10px;"></i>
-                            teamnutrionics@gmail.com
+                           team@nutrionics.com
                         </div>
                     </div>
 					<div class="clearfix">&nbsp;</div>
