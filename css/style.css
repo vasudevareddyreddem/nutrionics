@@ -1653,6 +1653,13 @@ our work section
   .purchase-now .btn-theme-color {
     float: none;
   }
+  .navbar-brand{
+	      float: right;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+  }
   .sm-hide{
 	  display:none;
   }

@@ -88,10 +88,10 @@ header("Pragma: no-cache");
 
     <body data-spy="scroll" data-target="#navigation" data-offset="80">
 
-        <section id="" class="md-hide">
+        <section id="" class="md-hide ">
 		 <img src="img/dark-bg-1.jpg"  alt=""  class=" img-responsive" data-no-retina>
 		</section>
-        <section id="home" class="sm-hide">
+        <section id="home" class="sm-hide home">
         <div id="r5-classic" class="rev_slider_wrapper fullwidthbanner-container" data-alias="classicslider1" style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
             <!-- START REVOLUTION SLIDER 5.0.7 auto mode -->
             <div id="rev_slider_4_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.0.7">
@@ -228,7 +228,7 @@ header("Pragma: no-cache");
                         <ul class="nav navbar-nav navbar-right scrollto">
                             <li><a href="#home">Home</a></li>
                             <li><a href="#about">About</a></li>
-							 <li><a href="#how-it-works">How it Works</a></li>
+							<li><a href="#how-it-works">How it Works</a></li>
                             <li><a href="#services">Services</a></li>
                             <li><a href="#work">Story of Success</a></li>
 
@@ -306,7 +306,7 @@ header("Pragma: no-cache");
                                 <div class="card-body text-center">
                                     <p><img class=" img-fluid" src="img/healtyicon.png" alt="card image"></p>
                                     <h5 class="card-title">WEIGHT LOSS-PRO</h5>
-                                    <p class="card-text ">A perfect program for those wanting to lose weight as well as inches.</p>
+                                    <p class="card-text ">A perfect program for those want to lose weight as well as inches.</p>
                                     
                                 </div>
                             </div>
@@ -332,7 +332,7 @@ header("Pragma: no-cache");
                                 <div class="card-body text-center">
                                     <p><img class=" img-fluid" src="img/exercise.png" alt="card image"></p>
                                     <h5 class="card-title">STAY FIT & ACTIVE</h5>
-                                    <p class="card-text">Designed for anyone with a busy corporate lifestyle, frequent travel & erratic work hours.  </p>
+                                    <p class="card-text">Designed for anyone with a busy corporate lifestyle, frequent travels & erratic work hours.  </p>
                                     
                                 </div>
                             </div>
@@ -367,7 +367,7 @@ header("Pragma: no-cache");
                             <div class="card">
                                 <div class="card-body text-center">
                                     
-                                    <p class="card-text"> hypothyroidism , abnormal lipid profile and for the women who are suffering from PCOS/PCOD and infertility. This program is easy to follow with high success rate and no special cooking involved. Every step here is taken after inspecting and analyzing your health records. A complete blood tests are done under medical experts .home visits are also available and then your routine plan is prepared.</p>
+                                    <p class="card-text"> hypothyroidism , abnormal lipid profile and for the women who are suffering from PCOS/PCOD and infertility. This program is easy to follow with high success rate and no special cooking involved. Every step here is taken after inspecting and analyzing your health records.Complete blood tests are done under medical experts. Home visits are also available and then your routine plan is prepared.</p>
                                     
                                 </div>
                             </div>
@@ -408,7 +408,7 @@ header("Pragma: no-cache");
                                 <div class="card-body text-center">
                                     <p><img class=" img-fluid" src="img/body-trans.png" alt="card image"></p>
                                     <h5 class="card-title">BODY TRANSFORMATION</h5>
-                                    <p class="card-text">The right mix of nutrients, water, sleep, activity and our GUIDANCE is all you need to transform.  </p>
+                                    <p class="card-text">The right mix of nutrients, water, sleep, activity and our  Guidance is all you need to transform.  </p>
                                     
                                 </div>
                             </div>
@@ -794,7 +794,7 @@ header("Pragma: no-cache");
             </div>
             <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                 <div class="panel-body">
-                    <p class="p-custom"> Our dietetics staff are committed to improving the health outcomes and quality of life of our clients through the integration and application of evidence based, culturally sensitive, individualized, and family centered medical nutrition therapy.</p> 
+                    <p class="p-custom"> Our dietetics staff are committed to improve the health outcomes and quality of life of our clients through the integration and application of evidence based, culturally sensitive, individualized, and family centered medical nutrition therapy.</p> 
                 </div>
             </div>
         </div>
@@ -841,7 +841,7 @@ header("Pragma: no-cache");
             </div>
             <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
                 <div class="panel-body">
-                    <p class="p-custom">Our team will try to find out the root cause of every problem so that we can help your get fit better. A complete blood investigation like your lipid profile ,Complete blood picture, liver function tests, and nutrients analysis will be done.</p>
+                    <p class="p-custom">Our team will try to find out the root cause of every problem so that we can help you get fit better. A complete blood investigation like your lipid profile ,Complete blood picture, liver function tests, and nutrients analysis will be done.</p>
                 </div>
             </div>
         </div>	
@@ -981,7 +981,7 @@ header("Pragma: no-cache");
 						  <div class="panel-heading bg-site"><h4 class="text-center" style="color:#fff">Team of Doctors </h4></div>
 							<div class="panel-body"> 
 								<p class="p-team">
-									Our team of doctors include general Physicians and also Dermatologist doctors which will help you guide you better with all your clinical issues and also if you are having any skin issues with PCOS then the team of dermat doctors are at your help .
+									Our team of doctors include general Physicians and also Dermatologist doctors who will help you guide you better with all your clinical issues and also if you are having any skin issues with PCOS then the team of dermat doctors are at your help .
 									<br>
 									<br>
 								</p>
@@ -1031,8 +1031,8 @@ header("Pragma: no-cache");
               <div class="row">
              
                 <div class="col-sm-12 text-center">
-                  <p class="font-20">I am very happy the way Dt.Sana handles the clients , lost 12kgs and i feel super energetic after this healthy weightloss. All the best team</p>
-                  <small>Jonathan Kiran ( Business Development Manager</small>
+                  <p class="font-20">I am very happy the way Dt.Sana handles the clients , lost 12kgs and I feel super energetic after this healthy weightloss. All the best team</p>
+                  <small>Jonathan Kiran ( Business Development Manager )</small>
                 </div>
               </div>
            
@@ -1044,7 +1044,7 @@ header("Pragma: no-cache");
                
                 <div class="col-sm-12 text-center">
                   <p class="font-20">I was leading a stress full life and was suffering from PCOD , the diet and the guidance helped me a lot to over come my depression and lose weight . Lost 7kgs in one month</p>
-                  <small>Ms.Sowmya (Fashion Designer )</small>
+                  <small>Ms.Sowmya ( Fashion Designer )</small>
                 </div>
               </div>
            
@@ -1055,8 +1055,8 @@ header("Pragma: no-cache");
               <div class="row">
                
                 <div class="col-sm-12 text-center">
-                  <p class="font-20">My Fathers creatinine levels were very high and i was tensed alot , that moment i consulted Dt.Sana and she guided me with foods to include and exclude and how to reduce the creatinine levels through diet </p>
-                  <small>Mr.Raghu Srinivas (Bank employee)</small>
+                  <p class="font-20">My Fathers creatinine levels were very high and I was tensed alot , that moment I consulted Dt.Sana and she guided me with foods to include and exclude and how to reduce the creatinine levels through diet </p>
+                  <small>Mr.Raghu Srinivas ( Bank employee )</small>
                 </div>
               </div>
            
@@ -1077,7 +1077,7 @@ header("Pragma: no-cache");
               <div class="row">
                
                 <div class="col-sm-12 text-center">
-                  <p class="font-20">Lost 11 kgs , with the proper diet and exercise routine , i was leading a hectic lifestyle with tight schedule . Dt.Sana was very motivating all the time and patiently handled my issues . Thank a lot Team  </p>
+                  <p class="font-20">Lost 11 kgs , with the proper diet and exercise routine , I was leading a hectic lifestyle with tight schedule. Dt.Sana was very motivating all the time and patiently handled my issues . Thank a lot Team  </p>
                   <small>Mr.Murli ( MD , Software company )</small>
                 </div>
               </div>
