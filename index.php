@@ -1236,7 +1236,7 @@ header("Pragma: no-cache");
                                 <p><i class="fa fa-phone"></i> +91 9618123311</p>
                                 <p><i class="fa fa-phone"></i> +91 9866979671</p>
                               
-                                <p><i class="fa fa-envelope"></i> <a href="#"> team@nutrionics.com</a></p>
+                                <p><i class="fa fa-envelope"></i> <a href="#"> team@nutrionics.in</a></p>
                                
                                 <hr>
                                 <h4>Elsewhere</h4>
@@ -1268,7 +1268,7 @@ header("Pragma: no-cache");
                     <div class="col-sm-4">
                         <div class="contact-col wow animated flipInY" data-wow-delay=".3s">
                             <i class="fa fa-envelope"></i>
-                            <p>team@nutrionics.com</p>
+                            <p>team@nutrionics.in</p>
                         </div>
                     </div>
                     <div class="col-sm-4">
@@ -1286,7 +1286,7 @@ header("Pragma: no-cache");
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-sm-6 copyright">
-                        <span>team@nutrionics.com</span>
+                        <span>team@nutrionics.in</span>
                     </div>
                     <div class="col-md-6 col-sm-6 footer-nav">
                         <ul class="list-inline">
@@ -1324,7 +1324,7 @@ header("Pragma: no-cache");
                     <div class="col-md-6">
                         <div class="contact-col " >
                             <i class="fa fa-envelope" style="font-size:20px;margin-right:10px;"></i>
-                           team@nutrionics.com
+                           team@nutrionics.in
                         </div>
                     </div>
 					<div class="clearfix">&nbsp;</div>
